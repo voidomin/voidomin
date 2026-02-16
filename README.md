@@ -1,7 +1,15 @@
+<div align="center">
+
 # Akash Bhat
 
 **Development Engineer** at Merck Life Science  
 Building software systems that operationalize biological processes through clean architecture and domain-driven engineering
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/akash-bhat-930346197)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:akashkbhat4414@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-voidominI-181717?style=flat&logo=github)](https://github.com/voidominI)
+
+</div>
 
 ---
 
@@ -36,23 +44,35 @@ Structural biology research involving computational mutagenesis, protein modelin
 
 ## Technical Stack
 
-**Languages**  
-JavaScript, TypeScript, Python, PHP
+**Languages**
 
-**Frontend**  
-React, Next.js  
+![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
+![TypeScript](https://img.shields.io/badge/-TypeScript-333333?style=flat&logo=typescript)
+![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
+![PHP](https://img.shields.io/badge/-PHP-333333?style=flat&logo=php)
+
+**Frontend**
+
+![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
+![Next.js](https://img.shields.io/badge/-Next.js-333333?style=flat&logo=next.js)
+
 Component-driven architecture, state management, domain-specific UI design
 
-**Backend**  
-Node.js, Laravel  
+**Backend**
+
+![Node.js](https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js)
+![Laravel](https://img.shields.io/badge/-Laravel-333333?style=flat&logo=laravel)
+
 REST API design, role-based access control, layered architecture
 
-**Architecture & Design**  
+**Architecture & Design**
+
 Clean Architecture, Domain-Driven Design principles  
 Separation of concerns, use case encapsulation, idempotent operations  
 Systems thinking for scientific and production environments
 
-**Scientific Computing**  
+**Scientific Computing**
+
 Bioinformatics analysis pipelines  
 Biological data modeling and interpretation  
 Structural biology tooling and simulation
@@ -61,16 +81,24 @@ Structural biology tooling and simulation
 
 ## Selected Projects
 
-**Bio4C Process Pad** (Merck Life Science)  
+### **Bio4C Process Pad** 
+*Merck Life Science*
+
 Platform supporting bioprocess workflows. Contributed to API design, role-based access architecture, and frontend systems handling complex scientific data models with regulatory traceability requirements.
 
-**AI for Bioreactor Analytics**  
+### **AI for Bioreactor Analytics**
+*Machine Learning Integration*
+
 System design integrating machine learning into bioprocess monitoring. Focused on auditability, interpretability, and consistency between AI outputs and operational interfaces. Designed to support real-time decisions while maintaining deterministic core logic.
 
-**Param Adventures**  
+### **Param Adventures**
+*Scalable Tourism Platform*
+
 Tourism platform with granular role-based access and admin moderation. Implemented clean layered architecture separating domain logic, use cases, and infrastructure. Designed for scale without structural degradation.
 
-**React Component Architectures**  
+### **React Component Architectures**
+*Frontend Engineering*
+
 Frontend projects emphasizing reusable, testable component design with clear boundaries between presentation and business logic.
 
 ---
@@ -102,10 +130,20 @@ The future of biotech tooling lies in **hybrid systems**: software that respects
 
 ---
 
+## GitHub Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=voidominI&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=voidominI&layout=compact&theme=default&hide_border=true)
+
+</div>
+
+---
+
 ## Contact
 
-**GitHub**: [@voidominI](https://github.com/voidominI)  
-**LinkedIn**: [Connect with me](https://www.linkedin.com/in/akash-bhat-930346197)  
-**Email**: [akashkbhat4414@gmail.com](mailto:akashkbhat4414@gmail.com)
-
 Open to discussions on scientific software architecture, biotech tooling, and systems design.
+
+**GitHub**: [@voidominI](https://github.com/voidominI) • **LinkedIn**: [Akash Bhat](https://www.linkedin.com/in/akash-bhat-930346197) • **Email**: [akashkbhat4414@gmail.com](mailto:akashkbhat4414@gmail.com)

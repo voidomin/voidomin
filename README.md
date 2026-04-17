@@ -7,7 +7,7 @@ Building software systems that operationalize biological processes through clean
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/akash-bhat-930346197)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:akashkbhat4414@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-voidominI-181717?style=flat&logo=github)](https://github.com/voidomin)
+[![GitHub](https://img.shields.io/badge/GitHub-voidomin-181717?style=flat&logo=github)](https://github.com/voidomin)
 
 </div>
 
@@ -134,9 +134,9 @@ The future of biotech tooling lies in **hybrid systems**: software that respects
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=voidominI&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=voidomin&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=voidominI&layout=compact&theme=default&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=voidomin&layout=compact&theme=default&hide_border=true)
 
 </div>
 
@@ -146,4 +146,4 @@ The future of biotech tooling lies in **hybrid systems**: software that respects
 
 Open to discussions on scientific software architecture, biotech tooling, and systems design.
 
-**GitHub**: [@voidominI](https://github.com/voidominI) • **LinkedIn**: [Akash Bhat](https://www.linkedin.com/in/akash-bhat-930346197) • **Email**: [akashkbhat4414@gmail.com](mailto:akashkbhat4414@gmail.com)
+**GitHub**: [@voidomin](https://github.com/voidomin) • **LinkedIn**: [Akash Bhat](https://www.linkedin.com/in/akash-bhat-930346197) • **Email**: [akashkbhat4414@gmail.com](mailto:akashkbhat4414@gmail.com)

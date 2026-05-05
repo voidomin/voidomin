@@ -4,9 +4,9 @@
 
 # Akash Bhat
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=BB86FC&center=true&vCenter=true&width=435&lines=Data+Science+Engineer+%40+Parentof;Machine+Learning+Specialist;Structural+Biology+%26+Protein+Design;AlphaFold+%7C+Rosetta+%7C+PyMOL;GCP+Cloud+Architecture;HPC+%7C+Shell+Scripting+%7C+SSH" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=BB86FC&center=true&vCenter=true&width=435&lines=Data+Science+Engineer+%40+Parentof;Machine+Learning+Specialist;Structural+Biology+%26+Protein+Design;GCP+Cloud+Architecture;Full+Stack+Software+Engineer" alt="Typing SVG" /></a>
 
-*Building high-performance software systems for biological and data-driven insights.*
+*Bridging biological complexity with computational precision and scalable engineering.*
 
 <br/>
 
@@ -20,44 +20,47 @@
 
 ### 🧬 Structural Biology & Data Engineering
 
-> I am a **Data Science Engineer** specializing in the intersection of **Bioinformatics** and **Scalable Software Architecture**. Currently at **Parentof Solutions**, I architect ML algorithms and cloud-native infrastructure on **GCP**. My expertise lies in operationalizing biological domain knowledge through tools like **AlphaFold**, **Rosetta**, and **PyMOL**, backed by a strong foundation in **High-Performance Computing (HPC)**.
+> I am a **Data Science Engineer** specializing in the intersection of **Bioinformatics** and **Scalable Software Architecture**. Currently at **Parentof Solutions**, I architect ML algorithms and cloud-native infrastructure on **GCP**. My expertise spans from building complex full-stack applications in **React** and **Laravel** to operationalizing biological domain knowledge through tools like **AlphaFold** and **Rosetta**.
 
 ---
 
 ### 🏗️ Professional Journey
 
-| Timeline | Company | Role | Impact |
-| :--- | :--- | :--- | :--- |
-| **Present** | **Parentof Solutions** | Data Science Engineer | Architecting AI-driven development analytics. |
-| **Previous** | **Iron Mountain** | Software Engineer | Optimized data workflows and infrastructure. |
-| **Previous** | **Merck Life Science** | Development Engineer | Built bioprocess automation systems (Bio4C). |
-| **Founder** | **Param Adventures** | Lead Developer | Built and launched a live tourism platform. |
+#### **Parentof Solutions** | Data Science Engineer [Present]
+- Architecting and implementing Machine Learning algorithms for child development analytics.
+- Designing scalable, high-availability cloud infrastructure on **Google Cloud Platform (GCP)**.
+- Developing core backend systems and data processing pipelines in **Python**.
+- Managing and optimizing automated **CI/CD** workflows for rapid feature deployment.
+
+#### **Iron Mountain** | Software Engineer [Previous]
+- Optimized enterprise-level data workflows and large-scale information management systems.
+- Enhanced system performance through robust software engineering and architectural improvements.
+- Collaborated on complex backend solutions using modern engineering principles.
+
+#### **Merck Life Science** | Development Engineer [Previous]
+- **Bio4C Process Pad**: Built software systems to operationalize biological processes with regulatory traceability.
+- Designed and implemented REST APIs and frontend architectures for complex bioprocess data models.
+- Translated deep biological domain requirements into maintainable, high-performance software designs.
+
+#### **Param Adventures** | Founder & Lead Developer
+- Built and launched a scalable tourism platform from the ground up (live product).
+- Implemented granular role-based access control and admin moderation systems.
+- Designed a clean, layered architecture separating domain logic from infrastructure.
 
 ---
 
 ### 🛡️ Technical Arsenal
 
-<div align="center">
-
-#### **Bioinformatics & Structural Biology**
-![AlphaFold](https://img.shields.io/badge/-AlphaFold-9C27B0?style=flat-square&logo=google-cloud&logoColor=white)
-![Rosetta](https://img.shields.io/badge/-Rosetta-673AB7?style=flat-square&logo=dna&logoColor=white)
-![PyMOL](https://img.shields.io/badge/-PyMOL-311B92?style=flat-square&logo=molecule&logoColor=white)
-![BioPython](https://img.shields.io/badge/-BioPython-4CAF50?style=flat-square&logo=python&logoColor=white)
-![PDB](https://img.shields.io/badge/-PDB--Analysis-FF5722?style=flat-square&logo=database&logoColor=white)
-
-#### **High-Performance Computing & Infrastructure**
-![Shell Scripting](https://img.shields.io/badge/-Shell--Scripting-4E342E?style=flat-square&logo=gnubash&logoColor=white)
-![SSH](https://img.shields.io/badge/-SSH-263238?style=flat-square&logo=ssh&logoColor=white)
-![HPC](https://img.shields.io/badge/-HPC--Clusters-37474F?style=flat-square&logo=server&logoColor=white)
-![GCP](https://img.shields.io/badge/-GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
-![CI/CD](https://img.shields.io/badge/-CI/CD-212121?style=flat-square&logo=github-actions&logoColor=white)
-
-</div>
+| Category | Tools & Technologies |
+| :--- | :--- |
+| **Languages** | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
+| **Scientific Stack** | ![AlphaFold](https://img.shields.io/badge/-AlphaFold-9C27B0?style=flat-square&logo=google-cloud&logoColor=white) ![Rosetta](https://img.shields.io/badge/-Rosetta-673AB7?style=flat-square&logo=dna&logoColor=white) ![PyMOL](https://img.shields.io/badge/-PyMOL-311B92?style=flat-square&logo=molecule&logoColor=white) ![BioPython](https://img.shields.io/badge/-BioPython-4CAF50?style=flat-square&logo=python&logoColor=white) |
+| **Cloud & DevOps** | ![GCP](https://img.shields.io/badge/-GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![CI/CD](https://img.shields.io/badge/-CI/CD-212121?style=flat-square&logo=github-actions&logoColor=white) ![HPC](https://img.shields.io/badge/-HPC--Clusters-37474F?style=flat-square&logo=server&logoColor=white) |
+| **Frameworks** | ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-05998B?style=flat-square&logo=fastapi&logoColor=white) ![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) |
 
 ---
 
-### 📊 System Metrics & Activity
+### 📊 Metrics & Insights
 
 <div align="center">
 
@@ -70,10 +73,17 @@
 
 ---
 
-### 📡 Recent Activity Feed
-<!-- START_SECTION:activity -->
-*Currently processing latest contributions...*
-<!-- END_SECTION:activity -->
+### 📡 Connection Established
+
+```bash
+$ ssh-contact voidomin@akash
+```
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akash-bhat-930346197)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akashkbhat4414@gmail.com)
+
+</div>
 
 ---
 

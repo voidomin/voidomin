@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/voidomin/voidomin/main/assets/banner.png" width="100%" alt="Purple Hacker Banner" />
+<img src="https://raw.githubusercontent.com/voidomin/voidomin/main/assets/banner_slim.png" width="100%" alt="Professional Banner" />
 
 # 👋 Hi, I'm Akash Bhat
 
@@ -16,22 +16,12 @@
 
 ---
 
-### 📂 Current Environment
+### 💻 System Overview
 
 ```bash
-$ whoami --status
+$ cat bio.txt
 ```
-> **Currently:** Data Science Engineer at **Parentof**  
-> **Focus:** Developing ML algorithms for child development analytics & managing GCP cloud infrastructure.  
-> **Status:** 🟢 Active | 🚀 Building AI-driven pedagogical frameworks
-
----
-
-### 🚀 Project Studio
-*Building the future of AI and Biotechnology, one commit at a time.*
-
-> [!TIP]
-> Explore my full range of projects—including **Smart Resume AI**, **Mustang Pipeline**, and more—at my interactive **[React Projects Studio](https://voidomin.github.io/react-projects/)**.
+> I am a **Data Science Engineer** at **Parentof**, where I bridge the gap between complex biological/behavioral data and actionable AI. My work focuses on building robust ML algorithms, managing high-performance cloud infrastructure on **GCP**, and ensuring seamless deployment through automated **CI/CD** pipelines. 
 
 ---
 
@@ -39,24 +29,11 @@ $ whoami --status
 
 <div align="center">
 
-#### **Machine Learning & Data Science**
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-05998B?style=flat-square&logo=fastapi&logoColor=white)
-
-#### **Cloud & Infrastructure**
-![GCP](https://img.shields.io/badge/-GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/-GitHub--Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-![CI/CD](https://img.shields.io/badge/-CI/CD-BB86FC?style=flat-square&logo=git&logoColor=white)
-
-#### **Frontend & Biotech**
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Bioinformatics](https://img.shields.io/badge/-Bioinformatics-4CAF50?style=flat-square&logo=dna&logoColor=white)
-![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+| ML & Data Science | Cloud & DevOps | Frontend & Biotech |
+| :--- | :--- | :--- |
+| ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | ![GCP](https://img.shields.io/badge/-GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white) | ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) |
+| ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) | ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white) |
+| ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) | ![GH Actions](https://img.shields.io/badge/-GH--Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) | ![Biotech](https://img.shields.io/badge/-Biotech-4CAF50?style=flat-square&logo=dna&logoColor=white) |
 
 </div>
 
@@ -66,11 +43,18 @@ $ whoami --status
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=voidomin&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=voidomin&layout=compact&theme=tokyonight&hide_border=true)
+![GitHub Stats](https://github-readme-stats-one.vercel.app/api?username=voidomin&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
+![Top Languages](https://github-readme-stats-one.vercel.app/api/top-langs/?username=voidomin&layout=compact&theme=tokyonight&hide_border=true)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=voidomin&theme=tokyonight&hide_border=true)
 
 </div>
+
+---
+
+### 🚀 Highlights
+
+> [!TIP]
+> Explore my full range of AI & Biotech projects at my interactive **[React Projects Studio](https://voidomin.github.io/react-projects/)**.
 
 ---
 
@@ -79,7 +63,7 @@ $ whoami --status
 #### **Development Engineer — Merck Life Science**
 *Bio4C Process Pad | Biological Process Systems*
 - Designed and implemented REST APIs and frontend architectures for bioprocess data.
-- Focused on clean architecture, regulatory traceability, and domain-driven design.
+- Focused on clean architecture and regulatory traceability.
 
 ---
 
@@ -90,10 +74,9 @@ $ ssh-contact voidomin@akash
 ```
 - **LinkedIn**: [Akash Bhat](https://www.linkedin.com/in/akash-bhat-930346197)
 - **Email**: [akashkbhat4414@gmail.com](mailto:akashkbhat4414@gmail.com)
-- **GitHub**: [@voidomin](https://github.com/voidomin)
 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=9C27B0&height=100&section=footer" width="100%" />
+  <sub>Built with ❤️ and ☕ by voidomin</sub>
 </div>

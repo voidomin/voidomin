@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/voidomin/voidomin/main/assets/banner_slim.png" width="100%" alt="Professional Banner" />
+<img src="https://raw.githubusercontent.com/voidomin/voidomin/main/assets/banner_biotech.png" width="100%" alt="Biotech Bioinformatics Banner" />
 
 # 👋 Hi, I'm Akash Bhat
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=BB86FC&center=true&vCenter=true&width=435&lines=Data+Science+Engineer+%40+Parentof;Machine+Learning+Specialist;Cloud+Architecture+(GCP);Python+Developer;Biotech+Software+Engineer" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=BB86FC&center=true&vCenter=true&width=435&lines=Data+Science+Engineer+%40+Parentof;Machine+Learning+Specialist;Structural+Biology+%26+Protein+Design;AlphaFold+%7C+PDB+%7C+Mustang+Analysis;GCP+Cloud+Architecture;Bioinformatics+Pipelines" alt="Typing SVG" /></a>
 
-*Building intelligent systems at the intersection of Data Science, AI, and Biotechnology.*
+*Bridging the gap between biological complexity and computational determinism.*
 
 <br/>
 
@@ -22,12 +22,12 @@
 
 </div>
 
-### 💻 System Overview
+### 🧬 Structural Biology & Bioinformatics
 
 ```bash
-$ whoami --verbose
+$ cat research_focus.sh
 ```
-> I am a **Data Science Engineer** at **Parentof**, where I bridge the gap between complex biological/behavioral data and actionable AI. My work focuses on building robust ML algorithms, managing high-performance cloud infrastructure on **GCP**, and ensuring seamless deployment through automated **CI/CD** pipelines. 
+> I specialize in **Bioinformatics** and **Structural Biology**, leveraging advanced computational tools like **AlphaFold** for protein structure prediction and **Mustang** for structural alignment. My engineering mindset focuses on building scalable pipelines that operationalize **PDB Analysis** and **Protein Mutagenesis**, turning biological domain knowledge into high-performance software systems.
 
 ---
 
@@ -35,11 +35,10 @@ $ whoami --verbose
 
 <div align="center">
 
-| **AI & Data Science** | **Cloud & DevOps** | **Frontend & Biotech** |
+| **AI & Bioinformatics** | **Cloud & DevOps** | **Frameworks & Design** |
 | :---: | :---: | :---: |
-| ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![GCP](https://img.shields.io/badge/-GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white) | ![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black) |
-| ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) | ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) | ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) |
-| ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) | ![GH Actions](https://img.shields.io/badge/-GH--Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) | ![Biotech](https://img.shields.io/badge/-Biotech-4CAF50?style=for-the-badge&logo=dna&logoColor=white) |
+| ![AlphaFold](https://img.shields.io/badge/-AlphaFold-9C27B0?style=flat-square&logo=google-cloud&logoColor=white) ![Mustang](https://img.shields.io/badge/-Mustang--Analysis-673AB7?style=flat-square&logo=dna&logoColor=white) | ![GCP](https://img.shields.io/badge/-GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white) |
+| ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) | ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![GH Actions](https://img.shields.io/badge/-GH--Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) | ![FastAPI](https://img.shields.io/badge/-FastAPI-05998B?style=flat-square&logo=fastapi&logoColor=white) ![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) |
 
 </div>
 
@@ -61,22 +60,16 @@ $ whoami --verbose
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-### 🚀 Highlights
+### 🚀 Flagship Projects
 
-> [!TIP]
-> Explore my full range of AI & Biotech projects at my interactive **[React Projects Studio](https://voidomin.github.io/react-projects/)**.
-
----
-
-### 📜 Legacy Logs
-
-#### **Development Engineer — Merck Life Science**
-- Designed and implemented REST APIs and frontend architectures for bioprocess data.
-- Focused on clean architecture and regulatory traceability.
+> [!IMPORTANT]
+> - **[Smart Resume AI](https://voidomin.github.io/react-projects/)**: AI-driven career optimization with ATS insights.
+> - **[Mustang Pipeline](https://voidomin.github.io/react-projects/)**: Advanced structural alignment for bioinformatics research.
+> - **[Bio4C Process Pad](https://voidomin.github.io/react-projects/)**: Scale-up systems for biological process automation.
 
 ---
 
-### 📡 Establish Connection
+### 📡 Connection Established
 
 ```bash
 $ ssh-contact voidomin@akash

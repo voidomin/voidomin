@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.png" height="150" alt="Purple Hacker Banner" />
+<img src="https://raw.githubusercontent.com/voidomin/voidomin/main/assets/banner.png" width="100%" alt="Purple Hacker Banner" />
 
 # 👋 Hi, I'm Akash Bhat
 
@@ -27,19 +27,11 @@ $ whoami --status
 
 ---
 
-### 🏗️ Project Studio
-*A selection of my best work in AI, Biotech, and Full-Stack development.*
+### 🚀 Project Studio
+*Building the future of AI and Biotechnology, one commit at a time.*
 
-| Project | Description | Tech Stack |
-| :--- | :--- | :--- |
-| **[Smart Resume AI](https://voidomin.github.io/react-projects/)** | AI-powered resume builder with ATS scoring and Gemini drafting. | `React` `Gemini AI` `Vite` |
-| **[Mustang Pipeline](https://voidomin.github.io/react-projects/)** | Biotech toolkit for advanced protein structure alignment. | `Python` `Bioinformatics` |
-| **[Movie Discovery](https://voidomin.github.io/react-projects/)** | Cinema-grade explorer with TMDB integration and command palette. | `React` `Vite` `TMDB API` |
-| **[Vocab Mastery](https://voidomin.github.io/react-projects/)** | Spaced repetition vocabulary trainer with interactive cards. | `React` `Firebase` `Vite` |
-| **[Caffiend Tracker](https://voidomin.github.io/react-projects/)** | Real-time caffeine intake monitor with user profiles. | `React` `Firebase` `Vite` |
-| **[Param Adventures](https://voidomin.github.io/react-projects/)** | Immersive adventure travel platform and storytelling. | `React` `Frontend` `Design` |
-
-> 🔗 **Explore more at my [React Projects Studio](https://voidomin.github.io/react-projects/)**
+> [!TIP]
+> Explore my full range of projects—including **Smart Resume AI**, **Mustang Pipeline**, and more—at my interactive **[React Projects Studio](https://voidomin.github.io/react-projects/)**.
 
 ---
 
@@ -74,8 +66,8 @@ $ whoami --status
 
 <div align="center">
 
-![Profile Summary Card](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=voidomin&theme=tokyonight)
-![Top Languages Card](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=voidomin&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=voidomin&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=voidomin&layout=compact&theme=tokyonight&hide_border=true)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=voidomin&theme=tokyonight&hide_border=true)
 
 </div>

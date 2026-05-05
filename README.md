@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="C:\Users\akash\.gemini\antigravity\brain\c84a208b-3c91-442f-94ba-4581ddd7224a\purple_hacker_banner_1777995767937.png" width="100%" alt="Purple Hacker Banner" />
+<img src="./assets/banner.png" width="100%" alt="Purple Hacker Banner" />
 
 # 👋 Hi, I'm Akash Bhat
 
@@ -76,9 +76,7 @@ $ whoami --status
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=voidomin&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=voidomin&layout=compact&theme=tokyonight&hide_border=true)
-
-<!-- Adding a cool "Contribution Snake" placeholder - User should enable GitHub Actions for this to update -->
-![Snake](https://github-mirror.p.rapidapi.com/github-contribution-grid-snake.svg?username=voidomin&color_snake=%23BB86FC&color_dots=%23161b22%2C%232d333b%2C%23414852%2C%23545d6a%2C%23687383)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=voidomin&theme=tokyonight&hide_border=true)
 
 </div>
 

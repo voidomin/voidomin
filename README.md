@@ -80,7 +80,8 @@ $ whoami --verbose
 
 <br/>
 
-![WakaTime](https://github-readme-stats.vercel.app/api/wakatime?username=voidomin&theme=tokyonight&layout=compact)
+<!-- WakaTime stats will appear here once your profile is set to public -->
+<!-- ![WakaTime](https://github-readme-stats.vercel.app/api/wakatime?username=voidomin&theme=tokyonight&layout=compact) -->
 <br/>
 ![GitHub Stats](https://github-readme-stats-one.vercel.app/api?username=voidomin&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=voidomin&theme=tokyonight&hide_border=true&area=true)

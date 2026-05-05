@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.png" width="100%" alt="Purple Hacker Banner" />
+<img src="./assets/banner.png" height="150" alt="Purple Hacker Banner" />
 
 # 👋 Hi, I'm Akash Bhat
 
@@ -74,8 +74,8 @@ $ whoami --status
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=voidomin&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=voidomin&layout=compact&theme=tokyonight&hide_border=true)
+![Profile Summary Card](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=voidomin&theme=tokyonight)
+![Top Languages Card](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=voidomin&theme=tokyonight)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=voidomin&theme=tokyonight&hide_border=true)
 
 </div>

@@ -1,149 +1,109 @@
 <div align="center">
 
-# Akash Bhat
+<img src="C:\Users\akash\.gemini\antigravity\brain\c84a208b-3c91-442f-94ba-4581ddd7224a\purple_hacker_banner_1777995767937.png" width="100%" alt="Purple Hacker Banner" />
 
-**Development Engineer** at Merck Life Science  
-Building software systems that operationalize biological processes through clean architecture and domain-driven engineering
+# 👋 Hi, I'm Akash Bhat
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/akash-bhat-930346197)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:akashkbhat4414@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-voidomin-181717?style=flat&logo=github)](https://github.com/voidomin)
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=BB86FC&center=true&vCenter=true&width=435&lines=Data+Science+Engineer+%40+Parentof;Machine+Learning+Specialist;Cloud+Architecture+(GCP);Python+Developer;Biotech+Software+Engineer" alt="Typing SVG" /></a>
+
+*Building intelligent systems at the intersection of Data Science, AI, and Biotechnology.*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-9C27B0?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/akash-bhat-930346197)
+[![Email](https://img.shields.io/badge/Email-Contact-673AB7?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akashkbhat4414@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-React--Projects-212121?style=for-the-badge&logo=react)](https://voidomin.github.io/react-projects/)
 
 </div>
 
 ---
 
-## About Me
+### 📂 Current Environment
 
-I work on **Bio4C Process Pad** at Merck Life Science, designing and implementing systems that handle the intersection of bioprocess data, regulatory requirements, and operational workflows. My focus is on architectures that maintain correctness and traceability while accommodating the inherent complexity of biological systems.
-
-I approach problems with a systems engineering mindset—prioritizing separation of concerns, idempotent design, and architectures that evolve without degrading maintainability.
-
----
-
-## Academic Background
-
-**M.Sc. in Molecular Biology**  
-Research focus: Structural Biology and Protein Mutagenesis  
-Published: *In Silico Saturation Mutagenesis of CCDB*
-
-**B.Sc. in Life Sciences**  
-Foundation in molecular mechanisms, biochemical systems, and experimental design
+```bash
+$ whoami --status
+```
+> **Currently:** Data Science Engineer at **Parentof**  
+> **Focus:** Developing ML algorithms for child development analytics & managing GCP cloud infrastructure.  
+> **Status:** 🟢 Active | 🚀 Building AI-driven pedagogical frameworks
 
 ---
 
-## Professional Experience
+### 🏗️ Project Studio
+*A selection of my best work in AI, Biotech, and Full-Stack development.*
 
-**Development Engineer – Merck Life Science**  
-Working on Bio4C Process Pad, building role-based access systems, REST APIs, and frontend architectures that support bioprocess workflows. Responsibilities include translating biological domain requirements into maintainable software designs.
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| **[Smart Resume AI](https://voidomin.github.io/react-projects/)** | AI-powered resume builder with ATS scoring and Gemini drafting. | `React` `Gemini AI` `Vite` |
+| **[Mustang Pipeline](https://voidomin.github.io/react-projects/)** | Biotech toolkit for advanced protein structure alignment. | `Python` `Bioinformatics` |
+| **[Movie Discovery](https://voidomin.github.io/react-projects/)** | Cinema-grade explorer with TMDB integration and command palette. | `React` `Vite` `TMDB API` |
+| **[Vocab Mastery](https://voidomin.github.io/react-projects/)** | Spaced repetition vocabulary trainer with interactive cards. | `React` `Firebase` `Vite` |
+| **[Caffiend Tracker](https://voidomin.github.io/react-projects/)** | Real-time caffeine intake monitor with user profiles. | `React` `Firebase` `Vite` |
+| **[Param Adventures](https://voidomin.github.io/react-projects/)** | Immersive adventure travel platform and storytelling. | `React` `Frontend` `Design` |
 
-**Research Experience**  
-Structural biology research involving computational mutagenesis, protein modeling, and bioinformatics pipelines. Experience in representing biological concepts as computational models with testable, interpretable outputs.
-
----
-
-## Technical Stack
-
-**Languages**
-
-![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
-![TypeScript](https://img.shields.io/badge/-TypeScript-333333?style=flat&logo=typescript)
-![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
-![PHP](https://img.shields.io/badge/-PHP-333333?style=flat&logo=php)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
-![Next.js](https://img.shields.io/badge/-Next.js-333333?style=flat&logo=next.js)
-
-Component-driven architecture, state management, domain-specific UI design
-
-**Backend**
-
-![Node.js](https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js)
-![Laravel](https://img.shields.io/badge/-Laravel-333333?style=flat&logo=laravel)
-
-REST API design, role-based access control, layered architecture
-
-**Architecture & Design**
-
-Clean Architecture, Domain-Driven Design principles  
-Separation of concerns, use case encapsulation, idempotent operations  
-Systems thinking for scientific and production environments
-
-**Scientific Computing**
-
-Bioinformatics analysis pipelines  
-Biological data modeling and interpretation  
-Structural biology tooling and simulation
+> 🔗 **Explore more at my [React Projects Studio](https://voidomin.github.io/react-projects/)**
 
 ---
 
-## Selected Projects
-
-### **Bio4C Process Pad** 
-*Merck Life Science*
-
-Platform supporting bioprocess workflows. Contributed to API design, role-based access architecture, and frontend systems handling complex scientific data models with regulatory traceability requirements.
-
-### **AI for Bioreactor Analytics**
-*Machine Learning Integration*
-
-System design integrating machine learning into bioprocess monitoring. Focused on auditability, interpretability, and consistency between AI outputs and operational interfaces. Designed to support real-time decisions while maintaining deterministic core logic.
-
-### **Param Adventures**
-*Scalable Tourism Platform*
-
-Tourism platform with granular role-based access and admin moderation. Implemented clean layered architecture separating domain logic, use cases, and infrastructure. Designed for scale without structural degradation.
-
-### **React Component Architectures**
-*Frontend Engineering*
-
-Frontend projects emphasizing reusable, testable component design with clear boundaries between presentation and business logic.
-
----
-
-## Current Focus
-
-- Architecting systems where biological domain knowledge directly informs engineering decisions
-- Integrating AI into biotechnology workflows with emphasis on interpretability, auditability, and operational consistency
-- Building architectures that handle increasing complexity without compromising modularity or testability
-
----
-
-## Long-Term Vision
-
-I am interested in advancing **scientific software engineering**—systems that address the unique challenges of biological data, experimental variability, and regulatory constraints. My goal is to contribute to architectures that enable better integration of AI, automation, and human expertise in biotechnology.
-
-The future of biotech tooling lies in **hybrid systems**: software that respects biological complexity while maintaining the modularity, clarity, and determinism expected in modern engineering.
-
----
-
-## Engineering Principles
-
-- Domain clarity before implementation
-- Architecture before feature velocity
-- Deterministic core logic
-- Clear system boundaries
-- Traceable data flows
-- Separation of concerns at every layer
-
----
-
-## GitHub Stats
+### 🛡️ Technical Arsenal
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=voidomin&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true)
+#### **Machine Learning & Data Science**
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-05998B?style=flat-square&logo=fastapi&logoColor=white)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=voidomin&layout=compact&theme=default&hide_border=true)
+#### **Cloud & Infrastructure**
+![GCP](https://img.shields.io/badge/-GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/-GitHub--Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![CI/CD](https://img.shields.io/badge/-CI/CD-BB86FC?style=flat-square&logo=git&logoColor=white)
+
+#### **Frontend & Biotech**
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Bioinformatics](https://img.shields.io/badge/-Bioinformatics-4CAF50?style=flat-square&logo=dna&logoColor=white)
+![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
 </div>
 
 ---
 
-## Contact
+### 📊 System Metrics
 
-Open to discussions on scientific software architecture, biotech tooling, and systems design.
+<div align="center">
 
-**GitHub**: [@voidomin](https://github.com/voidomin) • **LinkedIn**: [Akash Bhat](https://www.linkedin.com/in/akash-bhat-930346197) • **Email**: [akashkbhat4414@gmail.com](mailto:akashkbhat4414@gmail.com)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=voidomin&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=voidomin&layout=compact&theme=tokyonight&hide_border=true)
+
+<!-- Adding a cool "Contribution Snake" placeholder - User should enable GitHub Actions for this to update -->
+![Snake](https://github-mirror.p.rapidapi.com/github-contribution-grid-snake.svg?username=voidomin&color_snake=%23BB86FC&color_dots=%23161b22%2C%232d333b%2C%23414852%2C%23545d6a%2C%23687383)
+
+</div>
+
+---
+
+### 📜 Legacy Logs
+
+#### **Development Engineer — Merck Life Science**
+*Bio4C Process Pad | Biological Process Systems*
+- Designed and implemented REST APIs and frontend architectures for bioprocess data.
+- Focused on clean architecture, regulatory traceability, and domain-driven design.
+
+---
+
+### 📡 Establish Connection
+
+```bash
+$ ssh-contact voidomin@akash
+```
+- **LinkedIn**: [Akash Bhat](https://www.linkedin.com/in/akash-bhat-930346197)
+- **Email**: [akashkbhat4414@gmail.com](mailto:akashkbhat4414@gmail.com)
+- **GitHub**: [@voidomin](https://github.com/voidomin)
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=9C27B0&height=100&section=footer" width="100%" />
+</div>

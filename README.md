@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/voidomin/voidomin/main/assets/banner_biotech.png" width="100%" alt="Biotech Bioinformatics Banner" />
+<img src="https://raw.githubusercontent.com/voidomin/voidomin/main/assets/banner_final.png" width="100%" alt="Biotech Bioinformatics Banner" />
 
 # 👋 Hi, I'm Akash Bhat
 

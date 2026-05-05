@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/voidomin/voidomin/main/assets/banner_final.png" width="100%" alt="Professional Header" />
+<img src="https://raw.githubusercontent.com/voidomin/voidomin/main/assets/banner_hybrid.png" width="100%" alt="Tech-Bio Hybrid Header" />
 
 # Akash Bhat
 

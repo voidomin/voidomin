@@ -32,10 +32,10 @@
 - Developing core backend systems and data processing pipelines in **Python**.
 - Managing and optimizing automated **CI/CD** workflows for rapid feature deployment.
 
-#### **Iron Mountain** | Software Engineer [Previous]
-- Optimized enterprise-level data workflows and large-scale information management systems.
-- Enhanced system performance through robust software engineering and architectural improvements.
-- Collaborated on complex backend solutions using modern engineering principles.
+#### **Iron Mountain** | Analyst [Previous]
+- Optimized enterprise-level data workflows through complex **SQL** query design and data extraction.
+- Conducted deep-dive data analysis to identify trends and produce meaningful, actionable business insights.
+- Translated raw data into structured information to support strategic decision-making and operational efficiency.
 
 #### **Merck Life Science** | Development Engineer [Previous]
 - **Bio4C Process Pad**: Built software systems to operationalize biological processes with regulatory traceability.

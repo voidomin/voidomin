@@ -126,8 +126,11 @@ _Currently processing latest contributions..._
 ## Featured Projects
 
 - **voidomin/voidomin**: landing repository for my GitHub profile, README, and site assets — https://github.com/voidomin/voidomin
+  - [![Stars](https://img.shields.io/github/stars/voidomin/voidomin?style=flat-square&logo=github)](https://github.com/voidomin/voidomin/stargazers) [![Release](https://img.shields.io/github/v/release/voidomin/voidomin?style=flat-square)](https://github.com/voidomin/voidomin/releases)
 - **voidomin/react-projects**: portfolio of interactive React demos and deployed projects — https://github.com/voidomin/react-projects (also available at https://voidomin.github.io/react-projects/)
+  - [![Stars](https://img.shields.io/github/stars/voidomin/react-projects?style=flat-square&logo=github)](https://github.com/voidomin/react-projects/stargazers) [![Release](https://img.shields.io/github/v/release/voidomin/react-projects?style=flat-square)](https://github.com/voidomin/react-projects/releases)
 - **voidomin/param-adventures**: a scalable tourism platform built with full-stack architecture — https://github.com/voidomin/param-adventures
+  - [![Stars](https://img.shields.io/github/stars/voidomin/param-adventures?style=flat-square&logo=github)](https://github.com/voidomin/param-adventures/stargazers) [![Release](https://img.shields.io/github/v/release/voidomin/param-adventures?style=flat-square)](https://github.com/voidomin/param-adventures/releases)
 
 ## What I'm Working On
 

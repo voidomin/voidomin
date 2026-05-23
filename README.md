@@ -125,10 +125,9 @@ _Currently processing latest contributions..._
 
 ## Featured Projects
 
-- **Portfolio & Demos**: [React Projects](https://voidomin.github.io/react-projects/) — interactive frontends and demo deployments.
-- **Project-Name-1**: short one-line description and link to repository (replace with a repo link).
-- **Project-Name-2**: short one-line description and link to repository (replace with a repo link).
-- **This profile (voidomin/voidomin)**: landing repository for my GitHub profile, README, and site assets — https://github.com/voidomin/voidomin
+- **voidomin/voidomin**: landing repository for my GitHub profile, README, and site assets — https://github.com/voidomin/voidomin
+- **voidomin/react-projects**: portfolio of interactive React demos and deployed projects — https://github.com/voidomin/react-projects (also available at https://voidomin.github.io/react-projects/)
+- **voidomin/param-adventures**: a scalable tourism platform built with full-stack architecture — https://github.com/voidomin/param-adventures
 
 ## What I'm Working On
 

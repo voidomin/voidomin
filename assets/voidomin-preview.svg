@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="voidomin profile placeholder preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="32" fill="url(#bg)"/>
+  <rect x="48" y="48" width="1104" height="579" rx="28" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+  <rect x="92" y="96" width="260" height="44" rx="22" fill="rgba(255,255,255,0.08)"/>
+  <text x="222" y="126" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="22" text-anchor="middle">Profile README Preview</text>
+  <text x="92" y="220" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700">voidomin</text>
+  <text x="92" y="274" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="28">Bio-tech engineering, cloud systems, and product delivery</text>
+  <rect x="92" y="340" width="340" height="14" rx="7" fill="url(#accent)"/>
+  <rect x="92" y="392" width="240" height="14" rx="7" fill="rgba(255,255,255,0.28)"/>
+  <rect x="92" y="428" width="300" height="14" rx="7" fill="rgba(255,255,255,0.18)"/>
+  <rect x="92" y="464" width="180" height="14" rx="7" fill="rgba(255,255,255,0.12)"/>
+  <text x="92" y="560" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="20">Placeholder preview: replace with a real screenshot or banner GIF later.</text>
+</svg>

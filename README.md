@@ -125,12 +125,22 @@ _Currently processing latest contributions..._
 
 ## Featured Projects
 
-- **voidomin/voidomin**: landing repository for my GitHub profile, README, and site assets — https://github.com/voidomin/voidomin
+- **voidomin/voidomin**: profile landing page for my bio-tech engineering work and site assets — https://github.com/voidomin/voidomin
   - [![Stars](https://img.shields.io/github/stars/voidomin/voidomin?style=flat-square&logo=github)](https://github.com/voidomin/voidomin/stargazers) [![Forks](https://img.shields.io/github/forks/voidomin/voidomin?style=flat-square&logo=github)](https://github.com/voidomin/voidomin/network/members) [![Release](https://img.shields.io/github/v/release/voidomin/voidomin?style=flat-square)](https://github.com/voidomin/voidomin/releases) [![License](https://img.shields.io/github/license/voidomin/voidomin?style=flat-square)](https://github.com/voidomin/voidomin/blob/main/LICENSE)
-- **voidomin/react-projects**: portfolio of interactive React demos and deployed projects — https://github.com/voidomin/react-projects (also available at https://voidomin.github.io/react-projects/)
+- **voidomin/react-projects**: curated React demos, UI experiments, and deployed front-end prototypes — https://github.com/voidomin/react-projects (also available at https://voidomin.github.io/react-projects/)
   - [![Stars](https://img.shields.io/github/stars/voidomin/react-projects?style=flat-square&logo=github)](https://github.com/voidomin/react-projects/stargazers) [![Forks](https://img.shields.io/github/forks/voidomin/react-projects?style=flat-square&logo=github)](https://github.com/voidomin/react-projects/network/members) [![Release](https://img.shields.io/github/v/release/voidomin/react-projects?style=flat-square)](https://github.com/voidomin/react-projects/releases) [![License](https://img.shields.io/github/license/voidomin/react-projects?style=flat-square)](https://github.com/voidomin/react-projects/blob/main/LICENSE)
-- **voidomin/param-adventures**: a scalable tourism platform built with full-stack architecture — https://github.com/voidomin/param-adventures
+- **voidomin/param-adventures**: a scalable tourism platform with role-based access, admin tools, and layered architecture — https://github.com/voidomin/param-adventures
   - [![Stars](https://img.shields.io/github/stars/voidomin/param-adventures?style=flat-square&logo=github)](https://github.com/voidomin/param-adventures/stargazers) [![Forks](https://img.shields.io/github/forks/voidomin/param-adventures?style=flat-square&logo=github)](https://github.com/voidomin/param-adventures/network/members) [![Release](https://img.shields.io/github/v/release/voidomin/param-adventures?style=flat-square)](https://github.com/voidomin/param-adventures/releases) [![License](https://img.shields.io/github/license/voidomin/param-adventures?style=flat-square)](https://github.com/voidomin/param-adventures/blob/main/LICENSE)
+
+## Demo Previews
+
+The images below are lightweight placeholders for future screenshots or GIFs.
+
+| Project | Preview |
+| --- | --- |
+| voidomin/voidomin | ![voidomin profile preview](assets/voidomin-preview.svg) |
+| voidomin/react-projects | ![react projects preview](assets/react-projects-preview.svg) |
+| voidomin/param-adventures | ![param adventures preview](assets/param-adventures-preview.svg) |
 
 ## What I'm Working On
 

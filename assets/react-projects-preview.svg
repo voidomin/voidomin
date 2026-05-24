@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="react projects placeholder preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="45%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#042f2e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="32" fill="url(#bg)"/>
+  <rect x="48" y="48" width="1104" height="579" rx="28" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+  <text x="96" y="132" fill="#a7f3d0" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">React Projects Preview</text>
+  <text x="96" y="214" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">Interactive demos</text>
+  <text x="96" y="264" fill="#d1fae5" font-family="Arial, Helvetica, sans-serif" font-size="28">Deployable prototypes, UI experiments, and front-end practice</text>
+  <rect x="96" y="320" width="1000" height="240" rx="26" fill="url(#card)" stroke="rgba(255,255,255,0.15)"/>
+  <rect x="128" y="352" width="220" height="164" rx="20" fill="rgba(255,255,255,0.14)"/>
+  <rect x="384" y="352" width="220" height="164" rx="20" fill="rgba(255,255,255,0.10)"/>
+  <rect x="640" y="352" width="220" height="164" rx="20" fill="rgba(255,255,255,0.14)"/>
+  <rect x="896" y="352" width="172" height="164" rx="20" fill="rgba(255,255,255,0.10)"/>
+  <text x="96" y="610" fill="#bbf7d0" font-family="Arial, Helvetica, sans-serif" font-size="20">Placeholder preview: add a project montage, screen capture, or GIF later.</text>
+</svg>

@@ -27,13 +27,21 @@ _Bridging biological complexity with computational precision and scalable engine
 
 ---
 
+## Quick Snapshot
+
+- Data Science Engineer at Parentof working on ML, cloud, and production systems.
+- Focused on structural biology, protein design, and scalable engineering.
+- Built full-stack products across React, FastAPI, Laravel, and GCP.
+
+---
+
 ### 🧬 Structural Biology & Data Engineering
 
 ```bash
 $ whoami --verbose
 ```
 
-> I am a **Data Science Engineer** specializing in the intersection of **Bioinformatics** and **Scalable Software Architecture**. Currently at **Parentof Solutions**, I architect ML algorithms and cloud-native infrastructure on **GCP**. My expertise spans from building complex full-stack applications in **React** and **Laravel** to operationalizing biological domain knowledge through tools like **AlphaFold** and **Rosetta**.
+> I build bioinformatics and cloud software that stays practical in production, from ML pipelines to full-stack product delivery.
 
 ---
 
@@ -41,43 +49,51 @@ $ whoami --verbose
 
 #### **Parentof Solutions** | Data Science Engineer [Present]
 
-- Architecting and implementing Machine Learning algorithms for child development analytics.
-- Designing scalable, high-availability cloud infrastructure on **Google Cloud Platform (GCP)**.
-- Developing core backend systems and data processing pipelines in **Python**.
-- Managing and optimizing automated **CI/CD** workflows for rapid feature deployment.
-
-### 🧬 Structural Biology & Data Engineering
+- ML systems for child development analytics.
+- Cloud architecture and backend pipelines on **GCP**.
+- CI/CD workflows for reliable feature delivery.
 
 #### **Iron Mountain** | Analyst [Previous]
 
-- Optimized enterprise-level data workflows through complex **SQL** query design and data extraction.
-- Conducted deep-dive data analysis to identify trends and produce meaningful, actionable business insights.
-- Translated raw data into structured information to support strategic decision-making and operational efficiency.
+- SQL-driven data workflows and reporting.
+- Analysis that turned raw data into decisions.
 
 #### **Merck Life Science** | Development Engineer [Previous]
 
-- **Bio4C Process Pad**: Built software systems to operationalize biological processes with regulatory traceability.
-- Designed and implemented REST APIs and frontend architectures for complex bioprocess data models.
-- Translated deep biological domain requirements into maintainable, high-performance software designs.
+- Built software for traceable bioprocess operations.
+- Shipped REST APIs and frontend flows for complex data models.
 
 #### **Param Adventures** | Founder & Lead Developer
 
-- Built and launched a scalable tourism platform from the ground up (live product).
-- Implemented granular role-based access control and admin moderation systems.
-- Designed a clean, layered architecture separating domain logic from infrastructure.
+- Launched a live tourism platform from scratch.
+- Added role-based access and admin moderation.
+- Designed a layered architecture for maintainability.
 
 ---
 
-### 🛡️ Technical Arsenal
+### 🛡️ Skills / Stack
 
 <div align="center">
 
-| Category             | Tools & Technologies                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| :------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Languages**        | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
-| **Scientific Stack** | ![AlphaFold](https://img.shields.io/badge/-AlphaFold-9C27B0?style=flat-square&logo=google-cloud&logoColor=white) ![Rosetta](https://img.shields.io/badge/-Rosetta-673AB7?style=flat-square&logo=dna&logoColor=white) ![PyMOL](https://img.shields.io/badge/-PyMOL-311B92?style=flat-square&logo=molecule&logoColor=white) ![BioPython](https://img.shields.io/badge/-BioPython-4CAF50?style=flat-square&logo=python&logoColor=white)                                                                                                                                                                                           |
-| **Cloud & DevOps**   | ![GCP](https://img.shields.io/badge/-GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![CI/CD](https://img.shields.io/badge/-CI/CD-212121?style=flat-square&logo=github-actions&logoColor=white) ![HPC](https://img.shields.io/badge/-HPC--Clusters-37474F?style=flat-square&logo=server&logoColor=white)                                                                                 |
-| **Frameworks**       | ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-05998B?style=flat-square&logo=fastapi&logoColor=white) ![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)                                                                                                                                                                                                      |
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-05998B?style=for-the-badge&logo=fastapi&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-212121?style=for-the-badge&logo=github-actions&logoColor=white)
+
+![AlphaFold](https://img.shields.io/badge/AlphaFold-9C27B0?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Rosetta](https://img.shields.io/badge/Rosetta-673AB7?style=for-the-badge&logo=dna&logoColor=white)
+![PyMOL](https://img.shields.io/badge/PyMOL-311B92?style=for-the-badge&logo=molecule&logoColor=white)
+![BioPython](https://img.shields.io/badge/BioPython-4CAF50?style=for-the-badge&logo=python&logoColor=white)
 
 </div>
 
@@ -136,10 +152,10 @@ _Currently processing latest contributions..._
 
 The images below are lightweight placeholders for future screenshots or GIFs.
 
-| Project | Preview |
-| --- | --- |
-| voidomin/voidomin | ![voidomin profile preview](assets/voidomin-preview.svg) |
-| voidomin/react-projects | ![react projects preview](assets/react-projects-preview.svg) |
+| Project                   | Preview                                                          |
+| ------------------------- | ---------------------------------------------------------------- |
+| voidomin/voidomin         | ![voidomin profile preview](assets/voidomin-preview.svg)         |
+| voidomin/react-projects   | ![react projects preview](assets/react-projects-preview.svg)     |
 | voidomin/param-adventures | ![param adventures preview](assets/param-adventures-preview.svg) |
 
 ## What I'm Working On

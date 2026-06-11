@@ -12,7 +12,13 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+      - name: Debug - Inspect README.md
+        run: |
+          echo "==== Current GITHUB_WORKSPACE: $GITHUB_WORKSPACE ===="
+          ls -la
+          echo "==== Searching for activity tags in README.md ===="
+          grep -i "activity" README.md || echo "No matches found"
       - uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

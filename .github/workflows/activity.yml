@@ -13,12 +13,17 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: Debug - Inspect README.md
+      - name: Normalize activity markers
         run: |
-          echo "==== Current GITHUB_WORKSPACE: $GITHUB_WORKSPACE ===="
-          ls -la
-          echo "==== Searching for activity tags in README.md ===="
-          grep -i "activity" README.md || echo "No matches found"
+          python3 - <<'PY'
+          from pathlib import Path
+
+          readme = Path("README.md")
+          content = readme.read_text(encoding="utf-8")
+          content = content.replace("<!-- START_SECTION:activity -->", "<!--START_SECTION:activity-->")
+          content = content.replace("<!-- END_SECTION:activity -->", "<!--END_SECTION:activity-->")
+          readme.write_text(content, encoding="utf-8")
+          PY
       - uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -19,7 +19,6 @@ _Bridging biological complexity with computational precision and scalable engine
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-212121?style=flat-square&logo=opensourceinitiative&logoColor=white)](LICENSE)
 [![Build Status](https://github.com/voidomin/voidomin/actions/workflows/ci.yml/badge.svg)](https://github.com/voidomin/voidomin/actions)
-[![Coverage Status](https://img.shields.io/badge/Coverage-unknown-lightgrey?style=flat-square)](#coverage)
 
 <img src="https://img.shields.io/badge/System--Uptime-100%25-9C27B0?style=flat-square&logo=google-cloud&logoColor=white" /> <img src="https://img.shields.io/badge/Lifecycle-Active-success?style=flat-square&logo=github-actions&logoColor=white" />
 

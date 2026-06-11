@@ -125,11 +125,11 @@ $ whoami --verbose
 
 ### 📡 Recent Activity Feed
 
-<!-- START_SECTION:activity -->
+<!--START_SECTION:activity-->
 
 _Currently processing latest contributions..._
 
-<!-- END_SECTION:activity -->
+<!--END_SECTION:activity-->
 
 ---
 

@@ -13,12 +13,10 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: Debug - Inspect README.md
+      - name: Normalize activity markers
         run: |
-          echo "==== Current GITHUB_WORKSPACE: $GITHUB_WORKSPACE ===="
-          ls -la
-          echo "==== Searching for activity tags in README.md ===="
-          grep -i "activity" README.md || echo "No matches found"
+          sed -i 's/<!-- START_SECTION:activity -->/<!--START_SECTION:activity-->/g' README.md
+          sed -i 's/<!-- END_SECTION:activity -->/<!--END_SECTION:activity-->/g' README.md
       - uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

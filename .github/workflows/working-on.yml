@@ -1,0 +1,61 @@
+name: Update Working On
+
+on:
+  schedule:
+    - cron: '0 0 * * 1' # Every Monday
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Update What I'm Working On
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import urllib.request, json, re, os
+          from pathlib import Path
+
+          req = urllib.request.Request(
+              "https://api.github.com/users/voidomin/repos?sort=pushed&per_page=20",
+              headers={
+                  "Authorization": f"token {os.environ['GITHUB_TOKEN']}",
+                  "Accept": "application/vnd.github.v3+json"
+              }
+          )
+          repos = json.loads(urllib.request.urlopen(req).read())
+
+          active = [
+              r for r in repos
+              if r['name'] != 'voidomin'
+              and not r['fork']
+              and r.get('description')
+          ][:2]
+
+          lines = ["<!--WORKING_ON:start-->"]
+          for r in active:
+              lines.append(f"- **[{r['name']}]({r['html_url']})** — {r['description']}")
+          lines.append("<!--WORKING_ON:end-->")
+
+          readme = Path("README.md")
+          content = readme.read_text(encoding="utf-8")
+          updated = re.sub(
+              r'<!--WORKING_ON:start-->.*?<!--WORKING_ON:end-->',
+              "\n".join(lines),
+              content,
+              flags=re.DOTALL
+          )
+          readme.write_text(updated, encoding="utf-8")
+          PY
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet || (git add README.md && git commit -m "chore(readme): update what I'm working on")
+          git push

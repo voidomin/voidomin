@@ -102,12 +102,15 @@ $ whoami --verbose
 
 <div align="center">
 
+<img src="https://github-profile-trophy.vercel.app/?username=voidomin&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=10" alt="GitHub Trophies" />
+
+<br/>
+
 <img src="https://github-readme-stats-one.vercel.app/api/top-langs/?username=voidomin&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 
 <br/>
 
-<!-- WakaTime stats will appear here once your profile is set to public -->
-<!-- <img src="https://github-readme-stats.vercel.app/api/wakatime?username=voidomin&theme=tokyonight&layout=compact" /> -->
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=voidomin&theme=tokyonight&layout=compact&hide_border=true" alt="WakaTime Stats" />
 
 <img src="https://github-readme-stats-one.vercel.app/api?username=voidomin&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
 
@@ -167,8 +170,10 @@ The images below are lightweight placeholders for future screenshots or GIFs.
 
 ## What I'm Working On
 
+<!--WORKING_ON:start-->
 - Improving reproducible protein-design pipelines (AlphaFold + Rosetta automation).
 - Building scalable ML feature stores and ETL on GCP for production analytics.
+<!--WORKING_ON:end-->
 
 ## Contact
 

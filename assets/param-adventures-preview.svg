@@ -1,22 +1,116 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="param adventures placeholder preview">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="voidomin param-adventures preview">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1f2937"/>
-      <stop offset="55%" stop-color="#7c2d12"/>
-      <stop offset="100%" stop-color="#450a0a"/>
+    <linearGradient id="pbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0f1a"/>
+      <stop offset="100%" stop-color="#0d1520"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="phero" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a2744"/>
+      <stop offset="100%" stop-color="#0f1e38"/>
+    </linearGradient>
+    <linearGradient id="pacc" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#f59e0b"/>
       <stop offset="100%" stop-color="#ef4444"/>
     </linearGradient>
+    <linearGradient id="pnav" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1520"/>
+      <stop offset="100%" stop-color="#091018"/>
+    </linearGradient>
+    <clipPath id="pclip"><rect width="1200" height="675" rx="14"/></clipPath>
   </defs>
-  <rect width="1200" height="675" rx="32" fill="url(#bg)"/>
-  <rect x="48" y="48" width="1104" height="579" rx="28" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
-  <text x="96" y="132" fill="#fcd34d" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Param Adventures Preview</text>
-  <text x="96" y="214" fill="#fff7ed" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">Tourism platform</text>
-  <text x="96" y="264" fill="#ffedd5" font-family="Arial, Helvetica, sans-serif" font-size="28">Role-based access, admin workflows, and layered architecture</text>
-  <rect x="96" y="330" width="420" height="18" rx="9" fill="url(#accent)"/>
-  <rect x="96" y="378" width="500" height="130" rx="22" fill="rgba(255,255,255,0.10)"/>
-  <rect x="632" y="378" width="472" height="130" rx="22" fill="rgba(255,255,255,0.06)"/>
-  <text x="96" y="560" fill="#fed7aa" font-family="Arial, Helvetica, sans-serif" font-size="20">Placeholder preview: swap in app screenshots or a short walkthrough GIF later.</text>
+
+  <rect width="1200" height="675" rx="14" fill="url(#pbg)" clip-path="url(#pclip)"/>
+
+  <!-- Browser chrome -->
+  <rect width="1200" height="42" fill="url(#pnav)"/>
+  <circle cx="22" cy="21" r="7" fill="#ff5f57"/>
+  <circle cx="44" cy="21" r="7" fill="#febc2e"/>
+  <circle cx="66" cy="21" r="7" fill="#28c840"/>
+  <rect x="180" y="10" width="600" height="22" rx="11" fill="#0a0f1a" opacity="0.9"/>
+  <text x="480" y="25" fill="#8b949e" font-family="monospace" font-size="12" text-anchor="middle">param-adventures.vercel.app</text>
+
+  <!-- Top nav -->
+  <rect x="0" y="42" width="1200" height="56" fill="#0d1a2e" opacity="0.98"/>
+  <text x="60" y="77" fill="#f59e0b" font-family="Arial" font-size="20" font-weight="700">⛺ Param Adventures</text>
+  <text x="680" y="77" fill="#cbd5e1" font-family="Arial" font-size="14">Destinations</text>
+  <text x="780" y="77" fill="#cbd5e1" font-family="Arial" font-size="14">Packages</text>
+  <text x="880" y="77" fill="#cbd5e1" font-family="Arial" font-size="14">About</text>
+  <rect x="980" y="60" width="80" height="28" rx="5" fill="url(#pacc)"/>
+  <text x="1020" y="79" fill="white" font-family="Arial" font-size="13" font-weight="600" text-anchor="middle">Book Now</text>
+  <rect x="1078" y="60" width="80" height="28" rx="5" fill="transparent" stroke="#f59e0b" stroke-width="1"/>
+  <text x="1118" y="79" fill="#f59e0b" font-family="Arial" font-size="13" text-anchor="middle">Login</text>
+
+  <!-- Hero section -->
+  <rect x="0" y="98" width="1200" height="240" fill="url(#phero)"/>
+  <!-- Decorative mountain shapes -->
+  <polygon points="0,338 200,160 400,280 600,180 800,260 1000,140 1200,230 1200,338" fill="#0a1628" opacity="0.6"/>
+  <polygon points="0,338 150,200 300,300 500,210 700,290 900,170 1100,250 1200,200 1200,338" fill="#091020" opacity="0.4"/>
+
+  <text x="60" y="165" fill="#f0f6fc" font-family="Arial" font-size="38" font-weight="700">Explore India's Hidden Gems</text>
+  <text x="60" y="200" fill="#94a3b8" font-family="Arial" font-size="17">Curated trekking &amp; adventure tours with expert local guides</text>
+  <!-- Search bar -->
+  <rect x="60" y="220" width="560" height="46" rx="8" fill="#0f1e38" stroke="#f59e0b" stroke-width="1.5" stroke-opacity="0.6"/>
+  <text x="86" y="248" fill="#64748b" font-family="Arial" font-size="14">🔍  Search destinations, tours, treks...</text>
+  <rect x="630" y="220" width="130" height="46" rx="8" fill="url(#pacc)"/>
+  <text x="695" y="248" fill="white" font-family="Arial" font-size="14" font-weight="600" text-anchor="middle">Search</text>
+
+  <!-- Stats bar -->
+  <rect x="0" y="338" width="1200" height="52" fill="#0f1e38" opacity="0.9"/>
+  <text x="100" y="369" fill="#f59e0b" font-family="Arial" font-size="18" font-weight="700" text-anchor="middle">500+</text>
+  <text x="100" y="385" fill="#64748b" font-family="Arial" font-size="11" text-anchor="middle">Tours</text>
+  <line x1="200" y1="348" x2="200" y2="380" stroke="#1e3a5f" stroke-width="1"/>
+  <text x="320" y="369" fill="#f59e0b" font-family="Arial" font-size="18" font-weight="700" text-anchor="middle">50+</text>
+  <text x="320" y="385" fill="#64748b" font-family="Arial" font-size="11" text-anchor="middle">Destinations</text>
+  <line x1="440" y1="348" x2="440" y2="380" stroke="#1e3a5f" stroke-width="1"/>
+  <text x="560" y="369" fill="#f59e0b" font-family="Arial" font-size="18" font-weight="700" text-anchor="middle">10k+</text>
+  <text x="560" y="385" fill="#64748b" font-family="Arial" font-size="11" text-anchor="middle">Happy Travellers</text>
+  <line x1="680" y1="348" x2="680" y2="380" stroke="#1e3a5f" stroke-width="1"/>
+  <text x="800" y="369" fill="#f59e0b" font-family="Arial" font-size="18" font-weight="700" text-anchor="middle">★ 4.9</text>
+  <text x="800" y="385" fill="#64748b" font-family="Arial" font-size="11" text-anchor="middle">Avg Rating</text>
+
+  <!-- Section heading -->
+  <text x="60" y="422" fill="#f0f6fc" font-family="Arial" font-size="20" font-weight="700">Popular Destinations</text>
+  <text x="60" y="444" fill="#64748b" font-family="Arial" font-size="13">Handpicked adventures for every type of explorer</text>
+
+  <!-- Destination card 1 - Himalayas -->
+  <rect x="60" y="456" width="340" height="185" rx="10" fill="#0f1e38" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="60" y="456" width="340" height="100" rx="10" fill="#1a3a6e" opacity="0.6"/>
+  <rect x="60" y="516" width="340" height="40" fill="#0f1e38"/>
+  <text x="80" y="494" fill="#f0f6fc" font-family="Arial" font-size="11" opacity="0.7">🏔 HIMACHAL PRADESH</text>
+  <text x="80" y="512" fill="white" font-family="Arial" font-size="16" font-weight="700">Spiti Valley Trek</text>
+  <text x="80" y="540" fill="#94a3b8" font-family="Arial" font-size="12">7 days · Moderate difficulty</text>
+  <text x="80" y="560" fill="#94a3b8" font-family="Arial" font-size="12">High altitude desert landscape</text>
+  <text x="80" y="588" fill="#f59e0b" font-family="Arial" font-size="16" font-weight="700">₹18,999</text>
+  <text x="160" y="588" fill="#64748b" font-family="Arial" font-size="12">/ person</text>
+  <rect x="280" y="572" width="100" height="26" rx="5" fill="url(#pacc)"/>
+  <text x="330" y="589" fill="white" font-family="Arial" font-size="12" font-weight="600" text-anchor="middle">View Tour</text>
+  <text x="80" y="626" fill="#64748b" font-family="Arial" font-size="11">★★★★★ 4.9 (128 reviews)</text>
+
+  <!-- Destination card 2 - Goa -->
+  <rect x="430" y="456" width="340" height="185" rx="10" fill="#0f1e38" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="430" y="456" width="340" height="100" rx="10" fill="#1a4a3e" opacity="0.6"/>
+  <rect x="430" y="516" width="340" height="40" fill="#0f1e38"/>
+  <text x="450" y="494" fill="#f0f6fc" font-family="Arial" font-size="11" opacity="0.7">🌊 GOA</text>
+  <text x="450" y="512" fill="white" font-family="Arial" font-size="16" font-weight="700">Coastal Adventure Package</text>
+  <text x="450" y="540" fill="#94a3b8" font-family="Arial" font-size="12">5 days · Easy difficulty</text>
+  <text x="450" y="560" fill="#94a3b8" font-family="Arial" font-size="12">Beaches, water sports &amp; nightlife</text>
+  <text x="450" y="588" fill="#f59e0b" font-family="Arial" font-size="16" font-weight="700">₹12,499</text>
+  <text x="530" y="588" fill="#64748b" font-family="Arial" font-size="12">/ person</text>
+  <rect x="650" y="572" width="100" height="26" rx="5" fill="url(#pacc)"/>
+  <text x="700" y="589" fill="white" font-family="Arial" font-size="12" font-weight="600" text-anchor="middle">View Tour</text>
+  <text x="450" y="626" fill="#64748b" font-family="Arial" font-size="11">★★★★☆ 4.7 (94 reviews)</text>
+
+  <!-- Destination card 3 - Kerala -->
+  <rect x="800" y="456" width="340" height="185" rx="10" fill="#0f1e38" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="800" y="456" width="340" height="100" rx="10" fill="#2a1a4e" opacity="0.6"/>
+  <rect x="800" y="516" width="340" height="40" fill="#0f1e38"/>
+  <text x="820" y="494" fill="#f0f6fc" font-family="Arial" font-size="11" opacity="0.7">🌿 KERALA</text>
+  <text x="820" y="512" fill="white" font-family="Arial" font-size="16" font-weight="700">Western Ghats Trek</text>
+  <text x="820" y="540" fill="#94a3b8" font-family="Arial" font-size="12">6 days · Moderate difficulty</text>
+  <text x="820" y="560" fill="#94a3b8" font-family="Arial" font-size="12">Rainforests, waterfalls &amp; wildlife</text>
+  <text x="820" y="588" fill="#f59e0b" font-family="Arial" font-size="16" font-weight="700">₹15,799</text>
+  <text x="900" y="588" fill="#64748b" font-family="Arial" font-size="12">/ person</text>
+  <rect x="1020" y="572" width="100" height="26" rx="5" fill="url(#pacc)"/>
+  <text x="1070" y="589" fill="white" font-family="Arial" font-size="12" font-weight="600" text-anchor="middle">View Tour</text>
+  <text x="820" y="626" fill="#64748b" font-family="Arial" font-size="11">★★★★★ 4.8 (76 reviews)</text>
 </svg>

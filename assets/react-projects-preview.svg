@@ -1,24 +1,122 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="react projects placeholder preview">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="voidomin react-projects preview">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#111827"/>
-      <stop offset="45%" stop-color="#0f766e"/>
-      <stop offset="100%" stop-color="#042f2e"/>
+    <linearGradient id="rbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f1117"/>
+      <stop offset="100%" stop-color="#1a1f2e"/>
     </linearGradient>
-    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.06"/>
+    <linearGradient id="rnav" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c2333"/>
+      <stop offset="100%" stop-color="#161b27"/>
     </linearGradient>
+    <linearGradient id="rc1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#61dafb" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#61dafb" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="rc2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="rc3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.04"/>
+    </linearGradient>
+    <clipPath id="rclip"><rect width="1200" height="675" rx="14"/></clipPath>
   </defs>
-  <rect width="1200" height="675" rx="32" fill="url(#bg)"/>
-  <rect x="48" y="48" width="1104" height="579" rx="28" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
-  <text x="96" y="132" fill="#a7f3d0" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">React Projects Preview</text>
-  <text x="96" y="214" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">Interactive demos</text>
-  <text x="96" y="264" fill="#d1fae5" font-family="Arial, Helvetica, sans-serif" font-size="28">Deployable prototypes, UI experiments, and front-end practice</text>
-  <rect x="96" y="320" width="1000" height="240" rx="26" fill="url(#card)" stroke="rgba(255,255,255,0.15)"/>
-  <rect x="128" y="352" width="220" height="164" rx="20" fill="rgba(255,255,255,0.14)"/>
-  <rect x="384" y="352" width="220" height="164" rx="20" fill="rgba(255,255,255,0.10)"/>
-  <rect x="640" y="352" width="220" height="164" rx="20" fill="rgba(255,255,255,0.14)"/>
-  <rect x="896" y="352" width="172" height="164" rx="20" fill="rgba(255,255,255,0.10)"/>
-  <text x="96" y="610" fill="#bbf7d0" font-family="Arial, Helvetica, sans-serif" font-size="20">Placeholder preview: add a project montage, screen capture, or GIF later.</text>
+
+  <rect width="1200" height="675" rx="14" fill="url(#rbg)" clip-path="url(#rclip)"/>
+
+  <!-- Browser chrome -->
+  <rect width="1200" height="42" fill="url(#rnav)"/>
+  <circle cx="22" cy="21" r="7" fill="#ff5f57"/>
+  <circle cx="44" cy="21" r="7" fill="#febc2e"/>
+  <circle cx="66" cy="21" r="7" fill="#28c840"/>
+  <rect x="180" y="10" width="600" height="22" rx="11" fill="#0d1117" opacity="0.8"/>
+  <text x="480" y="25" fill="#8b949e" font-family="monospace" font-size="12" text-anchor="middle">voidomin.github.io/react-projects</text>
+
+  <!-- App nav -->
+  <rect x="0" y="42" width="1200" height="52" fill="#1c2333" opacity="0.9"/>
+  <text x="60" y="73" fill="#61dafb" font-family="Arial" font-size="20" font-weight="700">⚛ react-projects</text>
+  <text x="780" y="73" fill="#8b949e" font-family="Arial" font-size="14">Home</text>
+  <text x="850" y="73" fill="#8b949e" font-family="Arial" font-size="14">Projects</text>
+  <text x="940" y="73" fill="#8b949e" font-family="Arial" font-size="14">About</text>
+  <rect x="1040" y="58" width="100" height="26" rx="5" fill="#61dafb" opacity="0.15" stroke="#61dafb" stroke-width="1"/>
+  <text x="1090" y="76" fill="#61dafb" font-family="Arial" font-size="13" text-anchor="middle">GitHub ↗</text>
+
+  <!-- Hero text -->
+  <text x="60" y="150" fill="#f0f6fc" font-family="Arial" font-size="28" font-weight="700">UI Experiments &amp; Deployed Prototypes</text>
+  <text x="60" y="178" fill="#8b949e" font-family="Arial" font-size="15">A curated collection of React components, mini-apps, and frontend demos.</text>
+
+  <!-- Project card row 1 -->
+  <!-- Card 1 -->
+  <rect x="60" y="206" width="340" height="190" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <rect x="60" y="206" width="340" height="6" rx="3" fill="#61dafb"/>
+  <rect x="80" y="228" width="48" height="48" rx="8" fill="url(#rc1)" stroke="#61dafb" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="104" y="258" fill="#61dafb" font-family="monospace" font-size="18" text-anchor="middle">⚛</text>
+  <text x="148" y="248" fill="#f0f6fc" font-family="Arial" font-size="15" font-weight="600">Weather App</text>
+  <text x="148" y="266" fill="#8b949e" font-family="Arial" font-size="12">React + OpenWeather API</text>
+  <rect x="80" y="286" width="300" height="10" rx="5" fill="#21262d"/>
+  <rect x="80" y="302" width="240" height="10" rx="5" fill="#21262d"/>
+  <rect x="80" y="318" width="270" height="10" rx="5" fill="#21262d"/>
+  <rect x="80" y="360" width="80" height="24" rx="5" fill="#61dafb" fill-opacity="0.12" stroke="#61dafb" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="120" y="377" fill="#61dafb" font-family="Arial" font-size="12" text-anchor="middle">Demo ↗</text>
+  <rect x="174" y="360" width="80" height="24" rx="5" fill="#21262d"/>
+  <text x="214" y="377" fill="#8b949e" font-family="Arial" font-size="12" text-anchor="middle">Source</text>
+
+  <!-- Card 2 -->
+  <rect x="430" y="206" width="340" height="190" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <rect x="430" y="206" width="340" height="6" rx="3" fill="#7c3aed"/>
+  <rect x="450" y="228" width="48" height="48" rx="8" fill="url(#rc2)" stroke="#7c3aed" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="474" y="258" fill="#a78bfa" font-family="monospace" font-size="18" text-anchor="middle">🎨</text>
+  <text x="518" y="248" fill="#f0f6fc" font-family="Arial" font-size="15" font-weight="600">UI Component Kit</text>
+  <text x="518" y="266" fill="#8b949e" font-family="Arial" font-size="12">Tailwind + Storybook</text>
+  <rect x="450" y="286" width="300" height="10" rx="5" fill="#21262d"/>
+  <rect x="450" y="302" width="260" height="10" rx="5" fill="#21262d"/>
+  <rect x="450" y="318" width="220" height="10" rx="5" fill="#21262d"/>
+  <rect x="450" y="360" width="80" height="24" rx="5" fill="#7c3aed" fill-opacity="0.15" stroke="#7c3aed" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="490" y="377" fill="#a78bfa" font-family="Arial" font-size="12" text-anchor="middle">Demo ↗</text>
+  <rect x="544" y="360" width="80" height="24" rx="5" fill="#21262d"/>
+  <text x="584" y="377" fill="#8b949e" font-family="Arial" font-size="12" text-anchor="middle">Source</text>
+
+  <!-- Card 3 -->
+  <rect x="800" y="206" width="340" height="190" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <rect x="800" y="206" width="340" height="6" rx="3" fill="#10b981"/>
+  <rect x="820" y="228" width="48" height="48" rx="8" fill="url(#rc3)" stroke="#10b981" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="844" y="258" fill="#34d399" font-family="monospace" font-size="18" text-anchor="middle">📊</text>
+  <text x="888" y="248" fill="#f0f6fc" font-family="Arial" font-size="15" font-weight="600">Data Dashboard</text>
+  <text x="888" y="266" fill="#8b949e" font-family="Arial" font-size="12">Recharts + React Query</text>
+  <rect x="820" y="286" width="300" height="10" rx="5" fill="#21262d"/>
+  <rect x="820" y="302" width="280" height="10" rx="5" fill="#21262d"/>
+  <rect x="820" y="318" width="250" height="10" rx="5" fill="#21262d"/>
+  <rect x="820" y="360" width="80" height="24" rx="5" fill="#10b981" fill-opacity="0.12" stroke="#10b981" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="860" y="377" fill="#34d399" font-family="Arial" font-size="12" text-anchor="middle">Demo ↗</text>
+  <rect x="914" y="360" width="80" height="24" rx="5" fill="#21262d"/>
+  <text x="954" y="377" fill="#8b949e" font-family="Arial" font-size="12" text-anchor="middle">Source</text>
+
+  <!-- Row 2 partial cards (depth effect) -->
+  <rect x="60" y="418" width="340" height="60" rx="10" fill="#161b22" stroke="#21262d" stroke-width="1" opacity="0.7"/>
+  <rect x="60" y="418" width="340" height="4" rx="2" fill="#f59e0b" opacity="0.7"/>
+  <text x="84" y="445" fill="#f0f6fc" font-family="Arial" font-size="14" font-weight="600" opacity="0.7">Todo App</text>
+  <text x="84" y="462" fill="#8b949e" font-family="Arial" font-size="12" opacity="0.7">React Context + localStorage</text>
+
+  <rect x="430" y="418" width="340" height="60" rx="10" fill="#161b22" stroke="#21262d" stroke-width="1" opacity="0.7"/>
+  <rect x="430" y="418" width="340" height="4" rx="2" fill="#ef4444" opacity="0.7"/>
+  <text x="454" y="445" fill="#f0f6fc" font-family="Arial" font-size="14" font-weight="600" opacity="0.7">Pomodoro Timer</text>
+  <text x="454" y="462" fill="#8b949e" font-family="Arial" font-size="12" opacity="0.7">React Hooks + Web Audio</text>
+
+  <rect x="800" y="418" width="340" height="60" rx="10" fill="#161b22" stroke="#21262d" stroke-width="1" opacity="0.7"/>
+  <rect x="800" y="418" width="340" height="4" rx="2" fill="#3b82f6" opacity="0.7"/>
+  <text x="824" y="445" fill="#f0f6fc" font-family="Arial" font-size="14" font-weight="600" opacity="0.7">Markdown Editor</text>
+  <text x="824" y="462" fill="#8b949e" font-family="Arial" font-size="12" opacity="0.7">React + Unified.js</text>
+
+  <!-- Tech stack footer -->
+  <rect x="0" y="620" width="1200" height="55" fill="#161b22" opacity="0.9"/>
+  <text x="60" y="652" fill="#8b949e" font-family="Arial" font-size="13">Built with:</text>
+  <rect x="148" y="636" width="90" height="24" rx="5" fill="#61dafb" fill-opacity="0.1" stroke="#61dafb" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="193" y="653" fill="#61dafb" font-family="Arial" font-size="12" text-anchor="middle">React 18</text>
+  <rect x="252" y="636" width="110" height="24" rx="5" fill="#3178c6" fill-opacity="0.1" stroke="#3178c6" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="307" y="653" fill="#6eb3f7" font-family="Arial" font-size="12" text-anchor="middle">TypeScript</text>
+  <rect x="376" y="636" width="90" height="24" rx="5" fill="#06b6d4" fill-opacity="0.1" stroke="#06b6d4" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="421" y="653" fill="#67e8f9" font-family="Arial" font-size="12" text-anchor="middle">Tailwind</text>
+  <rect x="480" y="636" width="100" height="24" rx="5" fill="#f59e0b" fill-opacity="0.1" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="530" y="653" fill="#fcd34d" font-family="Arial" font-size="12" text-anchor="middle">Vite + HMR</text>
 </svg>

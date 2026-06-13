@@ -12,7 +12,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: CI check (profile repository)
+      - name: Lint markdown
+        run: npx --yes markdownlint-cli README.md --config .markdownlint.json
+      - name: Check required files
         run: |
-          echo "Running lightweight CI for profile repository"
-          ls -la
+          echo "Checking repository structure..."
+          test -f README.md   && echo "README.md ✓"
+          test -f LICENSE     && echo "LICENSE ✓"
+          test -f CONTRIBUTING.md && echo "CONTRIBUTING.md ✓"

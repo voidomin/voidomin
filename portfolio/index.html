@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akash Bhat — Data Science Engineer</title>
+  <meta name="description" content="Akash Bhat — Data Science Engineer bridging biological complexity with computational precision and scalable engineering." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #0d1117;
+      --surface:   #161b22;
+      --border:    #30363d;
+      --muted:     #8b949e;
+      --text:      #e6edf3;
+      --purple:    #a371f7;
+      --blue:      #58a6ff;
+      --green:     #3fb950;
+      --orange:    #f0883e;
+      --grad:      linear-gradient(135deg, #7c3aed 0%, #2563eb 100%);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+    }
+
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── Nav ── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 5%;
+      height: 60px;
+      background: rgba(13, 17, 23, 0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-logo {
+      font-family: 'Fira Code', monospace;
+      font-size: 1rem;
+      color: var(--purple);
+      font-weight: 500;
+    }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { color: var(--muted); font-size: 0.9rem; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--text); text-decoration: none; }
+
+    /* ── Sections ── */
+    section { padding: 100px 5%; max-width: 1100px; margin: 0 auto; }
+
+    /* ── Hero ── */
+    #hero {
+      min-height: 100vh;
+      display: flex; flex-direction: column; justify-content: center;
+      padding-top: 120px;
+    }
+    .hero-label {
+      font-family: 'Fira Code', monospace;
+      font-size: 0.9rem;
+      color: var(--purple);
+      margin-bottom: 1rem;
+    }
+    .hero-name {
+      font-size: clamp(2.4rem, 6vw, 4.5rem);
+      font-weight: 700;
+      line-height: 1.1;
+      background: var(--grad);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 0.75rem;
+    }
+    .hero-title {
+      font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+    }
+    .hero-desc {
+      max-width: 600px;
+      color: #8b949e;
+      font-size: 1.05rem;
+      margin-bottom: 2.5rem;
+    }
+    .hero-cta { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.65rem 1.4rem;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: opacity 0.2s, transform 0.2s;
+      cursor: pointer;
+    }
+    .btn:hover { opacity: 0.85; transform: translateY(-1px); text-decoration: none; }
+    .btn-primary { background: var(--grad); color: white; }
+    .btn-outline { background: transparent; color: var(--text); border: 1px solid var(--border); }
+    .btn-outline:hover { border-color: var(--purple); }
+
+    /* ── About ── */
+    .section-title {
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 2rem;
+      display: flex; align-items: center; gap: 0.75rem;
+    }
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: start;
+    }
+    .about-text p { color: var(--muted); margin-bottom: 1rem; line-height: 1.8; }
+    .about-facts { display: flex; flex-direction: column; gap: 1rem; }
+    .fact {
+      display: flex; align-items: flex-start; gap: 0.75rem;
+      padding: 1rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+    .fact-icon { font-size: 1.3rem; flex-shrink: 0; }
+    .fact-label { font-size: 0.8rem; color: var(--muted); margin-bottom: 0.2rem; }
+    .fact-value { font-size: 0.95rem; font-weight: 500; }
+
+    /* ── Skills ── */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.25rem;
+    }
+    .skill-group {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem;
+    }
+    .skill-group-title {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--purple);
+      margin-bottom: 0.85rem;
+    }
+    .skill-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .tag {
+      font-family: 'Fira Code', monospace;
+      font-size: 0.78rem;
+      padding: 0.3rem 0.65rem;
+      background: rgba(163, 113, 247, 0.1);
+      border: 1px solid rgba(163, 113, 247, 0.25);
+      border-radius: 5px;
+      color: var(--text);
+    }
+
+    /* ── Experience ── */
+    .timeline { display: flex; flex-direction: column; gap: 0; }
+    .timeline-item {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: 1.5rem;
+      padding-bottom: 2.5rem;
+      position: relative;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: 159px;
+      top: 8px; bottom: 0;
+      width: 1px;
+      background: var(--border);
+    }
+    .timeline-item:last-child::before { display: none; }
+    .timeline-dot {
+      position: absolute;
+      left: 153px; top: 6px;
+      width: 13px; height: 13px;
+      border-radius: 50%;
+      background: var(--purple);
+      border: 2px solid var(--bg);
+    }
+    .timeline-date { color: var(--muted); font-size: 0.85rem; padding-top: 4px; text-align: right; }
+    .timeline-content { padding-left: 1.5rem; }
+    .timeline-role { font-weight: 600; font-size: 1rem; margin-bottom: 0.2rem; }
+    .timeline-company { color: var(--purple); font-size: 0.9rem; margin-bottom: 0.75rem; }
+    .timeline-content ul { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .timeline-content li { color: var(--muted); font-size: 0.9rem; padding-left: 1rem; position: relative; }
+    .timeline-content li::before { content: '▸'; position: absolute; left: 0; color: var(--purple); }
+
+    /* ── Projects ── */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.5rem;
+    }
+    .project-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      display: flex; flex-direction: column;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .project-card:hover { border-color: var(--purple); transform: translateY(-3px); }
+    .project-card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.75rem; }
+    .project-icon { font-size: 1.6rem; }
+    .project-links { display: flex; gap: 0.5rem; }
+    .project-link {
+      display: inline-flex; align-items: center;
+      padding: 0.3rem 0.65rem;
+      border-radius: 5px;
+      font-size: 0.78rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      transition: color 0.2s, border-color 0.2s;
+    }
+    .project-link:hover { color: var(--text); border-color: var(--purple); text-decoration: none; }
+    .project-link.live { border-color: rgba(63,185,80,0.4); color: var(--green); }
+    .project-link.live:hover { border-color: var(--green); }
+    .project-name { font-size: 1.05rem; font-weight: 600; margin-bottom: 0.5rem; }
+    .project-desc { color: var(--muted); font-size: 0.9rem; line-height: 1.6; flex: 1; margin-bottom: 1.25rem; }
+    .project-tech { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tech-tag {
+      font-family: 'Fira Code', monospace;
+      font-size: 0.72rem;
+      padding: 0.2rem 0.5rem;
+      background: rgba(88,166,255,0.08);
+      border: 1px solid rgba(88,166,255,0.2);
+      border-radius: 4px;
+      color: var(--blue);
+    }
+
+    /* ── Contact ── */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+    }
+    .contact-text p { color: var(--muted); margin-bottom: 1.5rem; line-height: 1.8; }
+    .contact-links { display: flex; flex-direction: column; gap: 0.75rem; }
+    .contact-link {
+      display: flex; align-items: center; gap: 0.75rem;
+      padding: 0.85rem 1.1rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      font-size: 0.9rem;
+      transition: border-color 0.2s;
+    }
+    .contact-link:hover { border-color: var(--purple); text-decoration: none; }
+    .contact-link-icon { font-size: 1.2rem; flex-shrink: 0; }
+    .contact-link-label { color: var(--muted); font-size: 0.75rem; }
+    .contact-link-value { font-weight: 500; }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 2.5rem 5%;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.85rem;
+      font-family: 'Fira Code', monospace;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 768px) {
+      .about-grid, .contact-grid { grid-template-columns: 1fr; }
+      .timeline-item { grid-template-columns: 1fr; }
+      .timeline-item::before, .timeline-dot { display: none; }
+      .timeline-date { text-align: left; }
+      .timeline-content { padding-left: 0; }
+      .nav-links { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav>
+    <span class="nav-logo">akash@voidomin:~$</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <p class="hero-label">// Data Science Engineer · Bio-Tech · Cloud</p>
+    <h1 class="hero-name">Akash Bhat</h1>
+    <p class="hero-title">Bridging biological complexity with computational precision.</p>
+    <p class="hero-desc">
+      I build ML systems, cloud pipelines, and full-stack products that stay practical in production —
+      from protein-design automation to scalable GCP architecture.
+    </p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      <a href="https://github.com/voidomin" class="btn btn-outline" target="_blank">GitHub ↗</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2 class="section-title">About</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I'm a Data Science Engineer at Parentof, where I build ML systems for child development analytics
+          and own cloud infrastructure on GCP. My work sits at the intersection of machine learning,
+          bioinformatics, and scalable software — I'm equally comfortable training models, designing
+          REST APIs, and shipping full-stack features.
+        </p>
+        <p>
+          Outside of work, I'm exploring reproducible protein-design pipelines using AlphaFold and Rosetta,
+          and building open-source React tooling. I also founded Param Adventures, a live tourism platform
+          built from scratch with role-based access and layered architecture.
+        </p>
+      </div>
+      <div class="about-facts">
+        <div class="fact">
+          <span class="fact-icon">📍</span>
+          <div>
+            <div class="fact-label">Location</div>
+            <div class="fact-value">India</div>
+          </div>
+        </div>
+        <div class="fact">
+          <span class="fact-icon">💼</span>
+          <div>
+            <div class="fact-label">Current Role</div>
+            <div class="fact-value">Data Science Engineer @ Parentof</div>
+          </div>
+        </div>
+        <div class="fact">
+          <span class="fact-icon">🧬</span>
+          <div>
+            <div class="fact-label">Research Interest</div>
+            <div class="fact-value">Structural Biology & Protein Design</div>
+          </div>
+        </div>
+        <div class="fact">
+          <span class="fact-icon">☁️</span>
+          <div>
+            <div class="fact-label">Cloud Platform</div>
+            <div class="fact-value">Google Cloud Platform (GCP)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <div class="skill-group-title">Languages</div>
+        <div class="skill-tags">
+          <span class="tag">Python</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">PHP</span>
+          <span class="tag">SQL</span>
+          <span class="tag">Bash</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Frameworks</div>
+        <div class="skill-tags">
+          <span class="tag">React</span>
+          <span class="tag">Next.js</span>
+          <span class="tag">FastAPI</span>
+          <span class="tag">Laravel</span>
+          <span class="tag">Node.js</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Cloud & DevOps</div>
+        <div class="skill-tags">
+          <span class="tag">GCP</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Kubernetes</span>
+          <span class="tag">CI/CD</span>
+          <span class="tag">GitHub Actions</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Bioinformatics</div>
+        <div class="skill-tags">
+          <span class="tag">AlphaFold</span>
+          <span class="tag">Rosetta</span>
+          <span class="tag">PyMOL</span>
+          <span class="tag">BioPython</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">ML & Data</div>
+        <div class="skill-tags">
+          <span class="tag">scikit-learn</span>
+          <span class="tag">PyTorch</span>
+          <span class="tag">Pandas</span>
+          <span class="tag">ETL Pipelines</span>
+          <span class="tag">Feature Stores</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Databases</div>
+        <div class="skill-tags">
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">BigQuery</span>
+          <span class="tag">Redis</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <h2 class="section-title">Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">Present</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-role">Data Science Engineer</div>
+          <div class="timeline-company">Parentof Solutions</div>
+          <ul>
+            <li>ML systems for child development analytics</li>
+            <li>Cloud architecture and backend pipelines on GCP</li>
+            <li>CI/CD workflows for reliable feature delivery</li>
+          </ul>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">Previous</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-role">Analyst</div>
+          <div class="timeline-company">Iron Mountain</div>
+          <ul>
+            <li>SQL-driven data workflows and reporting</li>
+            <li>Analysis that turned raw data into decisions</li>
+          </ul>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">Previous</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-role">Development Engineer</div>
+          <div class="timeline-company">Merck Life Science</div>
+          <ul>
+            <li>Software for traceable bioprocess operations</li>
+            <li>REST APIs and frontend flows for complex data models</li>
+          </ul>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">Founder</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-role">Founder & Lead Developer</div>
+          <div class="timeline-company">Param Adventures</div>
+          <ul>
+            <li>Launched a live tourism platform from scratch</li>
+            <li>Role-based access, admin moderation, layered architecture</li>
+            <li>Live at paramadventures.in</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-card-top">
+          <span class="project-icon">⛺</span>
+          <div class="project-links">
+            <a href="https://www.paramadventures.in/" class="project-link live" target="_blank">Live ↗</a>
+            <a href="https://github.com/voidomin/Param_Adventures_Phase2" class="project-link" target="_blank">GitHub</a>
+          </div>
+        </div>
+        <div class="project-name">Param Adventures</div>
+        <div class="project-desc">
+          A scalable live tourism platform with role-based access, admin moderation tools,
+          and a layered architecture built for maintainability and growth.
+        </div>
+        <div class="project-tech">
+          <span class="tech-tag">Laravel</span>
+          <span class="tech-tag">PHP</span>
+          <span class="tech-tag">MySQL</span>
+          <span class="tech-tag">TypeScript</span>
+          <span class="tech-tag">Prisma</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card-top">
+          <span class="project-icon">⚛</span>
+          <div class="project-links">
+            <a href="https://voidomin.github.io/react-projects/" class="project-link live" target="_blank">Live ↗</a>
+            <a href="https://github.com/voidomin/react-projects" class="project-link" target="_blank">GitHub</a>
+          </div>
+        </div>
+        <div class="project-name">React Projects</div>
+        <div class="project-desc">
+          A curated collection of React demos, UI experiments, and deployed front-end
+          prototypes showcasing component design and modern React patterns.
+        </div>
+        <div class="project-tech">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">TypeScript</span>
+          <span class="tech-tag">Tailwind</span>
+          <span class="tech-tag">Vite</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card-top">
+          <span class="project-icon">🧬</span>
+          <div class="project-links">
+            <a href="https://github.com/voidomin/AlignX" class="project-link" target="_blank">GitHub</a>
+          </div>
+        </div>
+        <div class="project-name">AlignX</div>
+        <div class="project-desc">
+          Bioinformatics tooling for sequence alignment and structural analysis,
+          combining Python automation with AlphaFold and Rosetta workflows.
+        </div>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">BioPython</span>
+          <span class="tech-tag">AlphaFold</span>
+          <span class="tech-tag">Rosetta</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card-top">
+          <span class="project-icon">📄</span>
+          <div class="project-links">
+            <a href="https://github.com/voidomin/Resume-Forge" class="project-link" target="_blank">GitHub</a>
+          </div>
+        </div>
+        <div class="project-name">Resume Forge</div>
+        <div class="project-desc">
+          A developer-focused resume builder with live preview, custom templates,
+          and export to PDF — built to make professional resumes fast.
+        </div>
+        <div class="project-tech">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">TypeScript</span>
+          <span class="tech-tag">PDF Export</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-grid">
+      <div class="contact-text">
+        <p>
+          I'm open to interesting problems — whether that's ML infrastructure,
+          bioinformatics tooling, or full-stack product work. Drop me a message
+          if you'd like to collaborate or just talk tech.
+        </p>
+        <a href="mailto:akashkbhat4414@gmail.com" class="btn btn-primary">Send Email ↗</a>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:akashkbhat4414@gmail.com" class="contact-link">
+          <span class="contact-link-icon">✉️</span>
+          <div>
+            <div class="contact-link-label">Email</div>
+            <div class="contact-link-value">akashkbhat4414@gmail.com</div>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/akash-bhat-930346197" class="contact-link" target="_blank">
+          <span class="contact-link-icon">💼</span>
+          <div>
+            <div class="contact-link-label">LinkedIn</div>
+            <div class="contact-link-value">akash-bhat-930346197</div>
+          </div>
+        </a>
+        <a href="https://github.com/voidomin" class="contact-link" target="_blank">
+          <span class="contact-link-icon">🐙</span>
+          <div>
+            <div class="contact-link-label">GitHub</div>
+            <div class="contact-link-value">github.com/voidomin</div>
+          </div>
+        </a>
+        <a href="https://www.paramadventures.in/" class="contact-link" target="_blank">
+          <span class="contact-link-icon">⛺</span>
+          <div>
+            <div class="contact-link-label">Live Project</div>
+            <div class="contact-link-value">paramadventures.in</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Built by <a href="https://github.com/voidomin">voidomin</a> · <span id="year"></span></p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

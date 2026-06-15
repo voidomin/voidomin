@@ -171,8 +171,8 @@ The images below are lightweight placeholders for future screenshots or GIFs.
 ## What I'm Working On
 
 <!--WORKING_ON:start-->
-- Improving reproducible protein-design pipelines (AlphaFold + Rosetta automation).
-- Building scalable ML feature stores and ETL on GCP for production analytics.
+- **[Param_Adventures_Phase2](https://github.com/voidomin/Param_Adventures_Phase2)** — Second phase of param adventure a factoring of the code base and front end change
+- **[react-projects.](https://github.com/voidomin/react-projects.)** — This repository contains React applications built and enhanced during the course.
 <!--WORKING_ON:end-->
 
 ## Contact

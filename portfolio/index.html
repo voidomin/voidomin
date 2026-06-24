@@ -54,6 +54,27 @@
     .nav-links { display: flex; gap: 2rem; list-style: none; }
     .nav-links a { color: var(--muted); font-size: 0.9rem; transition: color 0.2s; }
     .nav-links a:hover { color: var(--text); text-decoration: none; }
+    .menu-toggle {
+      display: none;
+      background: none;
+      border: none;
+      color: var(--purple);
+      font-size: 1.5rem;
+      cursor: pointer;
+      outline: none;
+      padding: 0.25rem;
+    }
+
+    /* ── Reveal Animations ── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .reveal.revealed {
+      opacity: 1;
+      transform: translateY(0);
+    }
 
     /* ── Sections ── */
     section { padding: 100px 5%; max-width: 1100px; margin: 0 auto; }
@@ -288,7 +309,22 @@
       .timeline-item::before, .timeline-dot { display: none; }
       .timeline-date { text-align: left; }
       .timeline-content { padding-left: 0; }
-      .nav-links { display: none; }
+      .menu-toggle { display: block; }
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 60px; left: 0; right: 0;
+        background: rgba(22, 27, 34, 0.95);
+        backdrop-filter: blur(12px);
+        border-bottom: 1px solid var(--border);
+        padding: 1.5rem 5%;
+        gap: 1.25rem;
+        z-index: 99;
+      }
+      .nav-links.active {
+        display: flex;
+      }
     }
   </style>
 </head>
@@ -297,7 +333,8 @@
   <!-- Nav -->
   <nav>
     <span class="nav-logo">akash@voidomin:~$</span>
-    <ul class="nav-links">
+    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation Menu">☰</button>
+    <ul class="nav-links" id="nav-links">
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#experience">Experience</a></li>
@@ -318,7 +355,7 @@
     <div class="hero-cta">
       <a href="#projects" class="btn btn-primary">View Projects</a>
       <a href="#contact" class="btn btn-outline">Get in Touch</a>
-      <a href="https://github.com/voidomin" class="btn btn-outline" target="_blank">GitHub ↗</a>
+      <a href="https://github.com/voidomin" class="btn btn-outline" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
     </div>
   </section>
 
@@ -503,8 +540,8 @@
         <div class="project-card-top">
           <span class="project-icon">⛺</span>
           <div class="project-links">
-            <a href="https://www.paramadventures.in/" class="project-link live" target="_blank">Live ↗</a>
-            <a href="https://github.com/voidomin/Param_Adventures_Phase2" class="project-link" target="_blank">GitHub</a>
+            <a href="https://www.paramadventures.in/" class="project-link live" target="_blank" rel="noopener noreferrer">Live ↗</a>
+            <a href="https://github.com/voidomin/Param_Adventures_Phase2" class="project-link" target="_blank" rel="noopener noreferrer">GitHub</a>
           </div>
         </div>
         <div class="project-name">Param Adventures</div>
@@ -525,8 +562,8 @@
         <div class="project-card-top">
           <span class="project-icon">⚛</span>
           <div class="project-links">
-            <a href="https://voidomin.github.io/react-projects/" class="project-link live" target="_blank">Live ↗</a>
-            <a href="https://github.com/voidomin/react-projects" class="project-link" target="_blank">GitHub</a>
+            <a href="https://voidomin.github.io/react-projects/" class="project-link live" target="_blank" rel="noopener noreferrer">Live ↗</a>
+            <a href="https://github.com/voidomin/react-projects" class="project-link" target="_blank" rel="noopener noreferrer">GitHub</a>
           </div>
         </div>
         <div class="project-name">React Projects</div>
@@ -546,7 +583,7 @@
         <div class="project-card-top">
           <span class="project-icon">🧬</span>
           <div class="project-links">
-            <a href="https://github.com/voidomin/AlignX" class="project-link" target="_blank">GitHub</a>
+            <a href="https://github.com/voidomin/AlignX" class="project-link" target="_blank" rel="noopener noreferrer">GitHub</a>
           </div>
         </div>
         <div class="project-name">AlignX</div>
@@ -566,7 +603,7 @@
         <div class="project-card-top">
           <span class="project-icon">📄</span>
           <div class="project-links">
-            <a href="https://github.com/voidomin/Resume-Forge" class="project-link" target="_blank">GitHub</a>
+            <a href="https://github.com/voidomin/Resume-Forge" class="project-link" target="_blank" rel="noopener noreferrer">GitHub</a>
           </div>
         </div>
         <div class="project-name">Resume Forge</div>
@@ -603,21 +640,21 @@
             <div class="contact-link-value">akashkbhat4414@gmail.com</div>
           </div>
         </a>
-        <a href="https://www.linkedin.com/in/akash-bhat-930346197" class="contact-link" target="_blank">
+        <a href="https://www.linkedin.com/in/akash-bhat-930346197" class="contact-link" target="_blank" rel="noopener noreferrer">
           <span class="contact-link-icon">💼</span>
           <div>
             <div class="contact-link-label">LinkedIn</div>
             <div class="contact-link-value">akash-bhat-930346197</div>
           </div>
         </a>
-        <a href="https://github.com/voidomin" class="contact-link" target="_blank">
+        <a href="https://github.com/voidomin" class="contact-link" target="_blank" rel="noopener noreferrer">
           <span class="contact-link-icon">🐙</span>
           <div>
             <div class="contact-link-label">GitHub</div>
             <div class="contact-link-value">github.com/voidomin</div>
           </div>
         </a>
-        <a href="https://www.paramadventures.in/" class="contact-link" target="_blank">
+        <a href="https://www.paramadventures.in/" class="contact-link" target="_blank" rel="noopener noreferrer">
           <span class="contact-link-icon">⛺</span>
           <div>
             <div class="contact-link-label">Live Project</div>
@@ -634,6 +671,40 @@
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mobile Navigation Drawer Toggle
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+    
+    if (menuToggle && navLinks) {
+      menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        menuToggle.textContent = navLinks.classList.contains('active') ? '✕' : '☰';
+      });
+
+      // Close mobile menu when clicking a link
+      navLinks.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          navLinks.classList.remove('active');
+          menuToggle.textContent = '☰';
+        });
+      });
+    }
+
+    // Scroll Reveal Observer
+    const revealElements = document.querySelectorAll('section');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+        }
+      });
+    }, { threshold: 0.05, rootMargin: '0px 0px -50px 0px' });
+
+    revealElements.forEach(el => {
+      el.classList.add('reveal');
+      revealObserver.observe(el);
+    });
   </script>
 </body>
 </html>

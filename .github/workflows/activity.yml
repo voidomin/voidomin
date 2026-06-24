@@ -5,6 +5,10 @@ on:
     - cron: '0 */6 * * *' # Every 6 hours
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   update-readme:
     name: Update Readme with Recent Activity
@@ -13,8 +17,6 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Normalize activity markers
         run: |
           python3 - <<'PY'
@@ -26,7 +28,7 @@ jobs:
           content = content.replace("<!-- END_SECTION:activity -->", "<!--END_SECTION:activity-->")
           readme.write_text(content, encoding="utf-8")
           PY
-      - uses: jamesgeorge007/github-activity-readme@master
+      - uses: jamesgeorge007/github-activity-readme@v0.4.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:

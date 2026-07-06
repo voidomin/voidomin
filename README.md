@@ -165,8 +165,8 @@ The images below are lightweight placeholders for future screenshots or GIFs.
 ## What I'm Working On
 
 <!--WORKING_ON:start-->
-- **[AlignX](https://github.com/voidomin/AlignX)** — 🧬 High-Impact Structural Alignment Pipeline. Features a "Cyber-Bio" UI, interactive 3D visualizations with neon chain coloring, and automated PDF reporting. Built with Streamlit, Plotly, and Mustang.
 - **[Param_Adventures_Phase2](https://github.com/voidomin/Param_Adventures_Phase2)** — Second phase of param adventure a factoring of the code base and front end change
+- **[AlignX](https://github.com/voidomin/AlignX)** — 🧬 High-Impact Structural Alignment Pipeline. Features a "Cyber-Bio" UI, interactive 3D visualizations with neon chain coloring, and automated PDF reporting. Built with Streamlit, Plotly, and Mustang.
 <!--WORKING_ON:end-->
 
 ## Contact

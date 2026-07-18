@@ -131,7 +131,7 @@ $ whoami --verbose
 
 <!--START_SECTION:activity-->
 
-1. ❌ Merged PR [#29](https://github.com/voidomin/AlignX/pull/29) in [voidomin/AlignX](https://github.com/voidomin/AlignX)
+1. ❌ Merged PR [#41](https://github.com/voidomin/Param_Adventures_Phase2/pull/41) in [voidomin/Param_Adventures_Phase2](https://github.com/voidomin/Param_Adventures_Phase2)
 
 <!--END_SECTION:activity-->
 

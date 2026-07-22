@@ -131,7 +131,7 @@ $ whoami --verbose
 
 <!--START_SECTION:activity-->
 
-1. ❌ Merged PR [#28](https://github.com/ReadersRoom-Lab/the-reading-room/pull/28) in [ReadersRoom-Lab/the-reading-room](https://github.com/ReadersRoom-Lab/the-reading-room)
+1. 💪 Opened PR [#38](https://github.com/voidomin/AlignX/pull/38) in [voidomin/AlignX](https://github.com/voidomin/AlignX)
 
 <!--END_SECTION:activity-->
 

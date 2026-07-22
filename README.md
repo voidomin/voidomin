@@ -154,8 +154,6 @@ $ whoami --verbose
 
 ## Demo Previews
 
-The images below are lightweight placeholders for future screenshots or GIFs.
-
 | Project                   | Preview                                                          |
 | ------------------------- | ---------------------------------------------------------------- |
 | voidomin/voidomin         | ![voidomin profile preview](assets/voidomin-preview.svg)         |

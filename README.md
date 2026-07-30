@@ -131,7 +131,7 @@ $ whoami --verbose
 
 <!--START_SECTION:activity-->
 
-1. ❌ Merged PR [#28](https://github.com/voidomin/Resume-Forge/pull/28) in [voidomin/Resume-Forge](https://github.com/voidomin/Resume-Forge)
+1. ❌ Merged PR [#29](https://github.com/voidomin/Resume-Forge/pull/29) in [voidomin/Resume-Forge](https://github.com/voidomin/Resume-Forge)
 
 <!--END_SECTION:activity-->
 

@@ -131,7 +131,7 @@ $ whoami --verbose
 
 <!--START_SECTION:activity-->
 
-1. 💪 Opened PR [#122](https://github.com/voidomin/Param_Adventures_Phase2/pull/122) in [voidomin/Param_Adventures_Phase2](https://github.com/voidomin/Param_Adventures_Phase2)
+1. ❌ Merged PR [#123](https://github.com/voidomin/Param_Adventures_Phase2/pull/123) in [voidomin/Param_Adventures_Phase2](https://github.com/voidomin/Param_Adventures_Phase2)
 
 <!--END_SECTION:activity-->
 

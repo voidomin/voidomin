@@ -131,7 +131,7 @@ $ whoami --verbose
 
 <!--START_SECTION:activity-->
 
-1. 💪 Opened PR [#63](https://github.com/voidomin/AlignX/pull/63) in [voidomin/AlignX](https://github.com/voidomin/AlignX)
+1. 💪 Opened PR [#64](https://github.com/voidomin/AlignX/pull/64) in [voidomin/AlignX](https://github.com/voidomin/AlignX)
 
 <!--END_SECTION:activity-->
 
